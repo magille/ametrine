@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  border-radius: 0 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-body text-ink bg-paper antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-heading uppercase tracking-tight;
+}
+
+::selection {
+  background-color: #4A1B9E;
+  color: #fff;
+}
+
+a, button {
+  outline-offset: 2px;
+}
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 2px solid #4A1B9E;
+}
+
+/* Blueprint corner-mark frame, used by BlueprintCard */
+.blueprint {
+  position: relative;
+}
+.blueprint > .corner {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  pointer-events: none;
+}
+.blueprint > .corner::before,
+.blueprint > .corner::after {
+  content: "";
+  position: absolute;
+  background: currentColor;
+}
+.blueprint > .corner::before { width: 100%; height: 1.5px; top: 50%; transform: translateY(-50%); }
+.blueprint > .corner::after { height: 100%; width: 1.5px; left: 50%; transform: translateX(-50%); }
+.blueprint > .corner.tl { top: -6px; left: -6px; }
+.blueprint > .corner.tr { top: -6px; right: -6px; }
+.blueprint > .corner.bl { bottom: -6px; left: -6px; }
+.blueprint > .corner.br { bottom: -6px; right: -6px; }
+
+.duotone {
+  position: relative;
+  overflow: hidden;
+}
+.duotone img {
+  filter: grayscale(1) contrast(1.15) brightness(0.95);
+  mix-blend-mode: luminosity;
+}
+.duotone::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(74,27,158,0.78), rgba(78,205,196,0.35));
+  mix-blend-mode: multiply;
+}
+.duotone.light::after {
+  background: linear-gradient(135deg, rgba(74,27,158,0.55), rgba(78,205,196,0.25));
+}
+
+.input {
+  @apply w-full border border-neutral-300 bg-white px-4 py-3 text-ink placeholder:text-neutral-400 focus:border-primary;
+}
