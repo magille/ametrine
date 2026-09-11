@@ -26,7 +26,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 bg-paper/95 backdrop-blur border-b border-primary-200/60">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between py-4">
           <NavLink to="/" className="flex items-center gap-3 shrink-0" onClick={close}>
             <img src={logo} alt={siteMeta.fullName} className="h-10 w-auto" />

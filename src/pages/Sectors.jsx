@@ -5,7 +5,7 @@ import { sectors, home } from "../data/content"
 export default function Sectors() {
   return (
     <div>
-      <section className="max-w-6xl mx-auto px-6 pt-16 pb-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pt-16 pb-8">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           Where We Contribute
         </p>
@@ -18,7 +18,7 @@ export default function Sectors() {
         </p>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 pb-20 space-y-6">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pb-20 space-y-6">
         {sectors.map((sector) => (
           <BlueprintCard key={sector.number}>
             <p className="font-heading font-bold text-primary-500 mb-2">{sector.number}</p>

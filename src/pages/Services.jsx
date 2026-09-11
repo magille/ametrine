@@ -14,7 +14,7 @@ export default function Services() {
 
   return (
     <div>
-      <section className="max-w-6xl mx-auto px-6 pt-16 pb-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pt-16 pb-8">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           Our Offer
         </p>
@@ -25,7 +25,7 @@ export default function Services() {
         </p>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 pb-20 grid lg:grid-cols-[340px_1fr] gap-12">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pb-20 grid lg:grid-cols-[340px_1fr] gap-12">
         <nav className="lg:sticky lg:top-24 self-start border-t border-primary-200/60">
           {services.map((service) => {
             const isActive = service.slug === active.slug

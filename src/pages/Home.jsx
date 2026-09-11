@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="max-w-6xl mx-auto px-6 pt-16 pb-0">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pt-16 pb-0">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           {home.hero.eyebrow}
         </p>
@@ -39,7 +39,7 @@ export default function Home() {
       />
 
       {/* Credibility spec sheet */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
         <SpecSheet
           title={home.credibility.title}
           meta={home.credibility.meta}
@@ -49,7 +49,7 @@ export default function Home() {
       </section>
 
       {/* Who we are */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
         <SectionHeading eyebrow={home.whoWeAre.eyebrow} title={home.whoWeAre.title} />
         <div className="grid md:grid-cols-2 gap-10">
           <div className="space-y-5 text-neutral-700 text-lg">
@@ -71,7 +71,7 @@ export default function Home() {
       </section>
 
       {/* Featured services */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
         <SectionHeading eyebrow="02 · Featured Services" title="What we help you do" />
         <div className="grid md:grid-cols-2 gap-8">
           {services.map((service) => (
@@ -91,7 +91,7 @@ export default function Home() {
       </section>
 
       {/* Our difference */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
         <SectionHeading eyebrow={home.difference.eyebrow} title={home.difference.title} />
         <div className="divide-y divide-primary-200/50 border-t border-primary-200/50">
           {home.difference.items.map((item, i) => (

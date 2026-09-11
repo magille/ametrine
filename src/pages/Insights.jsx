@@ -4,7 +4,7 @@ import { insights, faq } from "../data/content"
 export default function Insights() {
   return (
     <div>
-      <section className="max-w-6xl mx-auto px-6 pt-16 pb-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pt-16 pb-8">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           {insights.eyebrow}
         </p>
@@ -13,7 +13,7 @@ export default function Insights() {
         <p className="text-lg text-neutral-600 max-w-2xl">{insights.intro}</p>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 pb-16">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pb-16">
         <div className="border-t border-primary-200/50">
           {insights.articles.map((title, i) => (
             <div key={title} className="grid sm:grid-cols-[60px_1fr] gap-4 py-6 border-b border-primary-200/50">
@@ -28,7 +28,7 @@ export default function Insights() {
       </section>
 
       <section className="bg-primary-900 text-white">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
           <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-200 mb-4">
             {insights.resourceCta.title}
           </p>
@@ -42,7 +42,7 @@ export default function Insights() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
         <SectionHeading eyebrow="Helpful Answers" title="Frequently Asked Questions" />
         <div className="border-t border-primary-200/50">
           {faq.map((item, i) => (

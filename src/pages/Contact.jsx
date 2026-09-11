@@ -36,7 +36,7 @@ export default function Contact() {
 
   return (
     <div>
-      <section className="max-w-6xl mx-auto px-6 pt-16 pb-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pt-16 pb-8">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           {contact.eyebrow}
         </p>
@@ -45,7 +45,7 @@ export default function Contact() {
         <p className="text-lg text-neutral-600 max-w-2xl">{contact.body}</p>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 pb-20 grid lg:grid-cols-[1fr_1.4fr] gap-12">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pb-20 grid lg:grid-cols-[1fr_1.4fr] gap-12">
         <BlueprintCard className="h-fit">
           <p className="font-heading uppercase text-sm font-bold text-primary-500 mb-6">{contact.details.title}</p>
           <dl className="divide-y divide-primary-200/50">

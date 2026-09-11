@@ -3,7 +3,7 @@ import Button from "./Button"
 export default function CtaBand({ eyebrow, title, body, ctaPrimary, ctaPrimaryTo, ctaSecondary, ctaSecondaryTo }) {
   return (
     <section className="bg-primary-900 text-white">
-      <div className="max-w-6xl mx-auto px-6 py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-20">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-200 mb-4">
           {eyebrow}
         </p>

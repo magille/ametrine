@@ -9,7 +9,7 @@ import aboutPhoto from "../assets/photos/about.jpg"
 export default function About() {
   return (
     <div>
-      <section className="max-w-6xl mx-auto px-6 pt-16">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pt-16">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           {about.eyebrow}
         </p>
@@ -28,7 +28,7 @@ export default function About() {
 
       <DuotoneImage src={aboutPhoto} alt="Infrastructure and systems in Tanzania" />
 
-      <section className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16 grid md:grid-cols-2 gap-8">
         <BlueprintCard>
           <p className="font-heading uppercase text-sm font-bold text-primary-500 mb-3">Vision</p>
           <p className="text-xl text-ink">{about.vision}</p>
@@ -39,7 +39,7 @@ export default function About() {
         </BlueprintCard>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
         <SectionHeading eyebrow="Our Values" title="What guides every assignment" />
         <div className="grid sm:grid-cols-2 gap-x-8 gap-y-10">
           {about.values.map((value) => (
@@ -55,7 +55,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
         <SectionHeading eyebrow="Our Method" title={about.howWeWork.title} />
         <div className="divide-y divide-primary-200/50 border-t border-primary-200/50">
           {about.howWeWork.steps.map((step, i) => (
@@ -70,7 +70,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
         <SectionHeading eyebrow="Our People" title={about.leadership.title} />
         <SpecSheet
           title={about.leadership.title}

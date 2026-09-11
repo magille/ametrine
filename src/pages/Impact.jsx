@@ -7,7 +7,7 @@ import impactPhoto from "../assets/photos/impact.jpg"
 export default function Impact() {
   return (
     <div>
-      <section className="max-w-6xl mx-auto px-6 pt-16 pb-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pt-16 pb-8">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           {impact.eyebrow}
         </p>
@@ -19,7 +19,7 @@ export default function Impact() {
 
       <DuotoneImage src={impactPhoto} alt="Communities and programmes across Tanzania" />
 
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
         <SpecSheet
           title={impact.proofPoints.title}
           meta={impact.proofPoints.meta}

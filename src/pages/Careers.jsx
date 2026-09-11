@@ -5,7 +5,7 @@ import { careers } from "../data/content"
 export default function Careers() {
   return (
     <div>
-      <section className="max-w-6xl mx-auto px-6 pt-16 pb-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pt-16 pb-8">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           {careers.eyebrow}
         </p>
@@ -14,7 +14,7 @@ export default function Careers() {
         <p className="text-lg text-neutral-600 max-w-2xl">{careers.intro}</p>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 pb-16 space-y-6">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pb-16 space-y-6">
         {careers.tracks.map((track) => (
           <BlueprintCard key={track.number}>
             <p className="font-heading font-bold text-primary-500 mb-2">{track.number}</p>
@@ -27,7 +27,7 @@ export default function Careers() {
         ))}
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 pb-20">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pb-20">
         <BlueprintCard>
           <p className="text-lg text-neutral-700 max-w-2xl mb-6">
             {careers.closing.text.split("careers@ametrine.tz")[0]}
