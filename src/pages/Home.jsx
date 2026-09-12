@@ -73,35 +73,17 @@ export default function Home() {
       {/* Featured services */}
       <section className="max-w-6xl mx-auto px-6 py-16">
         <SectionHeading eyebrow="02 · Featured Services" title="What we help you do" />
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service) => (
-            <BlueprintCard key={service.slug}>
-              <p className="font-heading text-sm font-bold text-primary-500 mb-2">{service.number}</p>
-              <h3 className="text-2xl font-bold mb-3">{service.title}</h3>
-              <p className="text-neutral-600 mb-5">{service.short}</p>
+            <BlueprintCard key={service.slug} className="p-6">
+              <p className="font-heading text-sm font-bold text-primary-500 mb-3">{service.number}</p>
               <Link
                 to={`/services/${service.slug}`}
-                className="font-heading uppercase text-sm font-semibold text-primary hover:text-primary-700 inline-flex items-center gap-2"
+                className="font-heading uppercase text-xl font-bold leading-tight hover:text-primary-700 transition-colors block"
               >
-                Read the service <span aria-hidden>→</span>
+                {service.title}
               </Link>
             </BlueprintCard>
-          ))}
-        </div>
-      </section>
-
-      {/* Our difference */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
-        <SectionHeading eyebrow={home.difference.eyebrow} title={home.difference.title} />
-        <div className="divide-y divide-primary-200/50 border-t border-primary-200/50">
-          {home.difference.items.map((item, i) => (
-            <div key={item.title} className="grid sm:grid-cols-[60px_1fr] gap-4 py-6">
-              <span className="font-heading font-bold text-primary-500">{String(i + 1).padStart(2, "0")}</span>
-              <div>
-                <h3 className="text-xl font-bold uppercase font-heading mb-1">{item.title}</h3>
-                <p className="text-neutral-600">{item.text}</p>
-              </div>
-            </div>
           ))}
         </div>
       </section>
