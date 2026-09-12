@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { NavLink, Link } from "react-router-dom"
-import { nav, siteMeta } from "../data/content"
-import logo from "../assets/logo-purple.png"
+import { nav } from "../data/content"
+import logoMark from "../assets/logo-mark.png"
 
 function NavItem({ to, children, onClick }) {
   return (
@@ -27,18 +27,28 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-paper/95 backdrop-blur border-b border-primary-200/60">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="flex items-center justify-between py-4">
-          <NavLink to="/" className="flex items-center gap-3 shrink-0" onClick={close}>
-            <img src={logo} alt={siteMeta.fullName} className="h-10 w-auto" />
+        <div className="flex items-center justify-between py-3 gap-4">
+          <NavLink to="/" className="flex items-center gap-2.5 shrink-0" onClick={close}>
+            <img src={logoMark} alt="" className="h-9 w-auto" />
+            <span className="font-heading uppercase font-semibold text-2xl tracking-wide leading-none text-ink">
+              Ametrine<span className="text-teal">.</span>
+            </span>
           </NavLink>
 
-          <nav className="hidden lg:flex items-center gap-8">
-            {nav.primary.map((item) => (
+          <nav className="hidden lg:flex items-center gap-7">
+            {nav.items.map((item) => (
               <NavItem key={item.path} to={item.path}>
                 {item.label}
               </NavItem>
             ))}
           </nav>
+
+          <Link
+            to="/contact"
+            className="hidden lg:inline-flex items-center justify-center bg-primary text-white px-5 py-2.5 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-primary-700 transition-colors"
+          >
+            Discuss an assignment
+          </Link>
 
           <button
             className="lg:hidden font-heading uppercase text-sm font-bold border border-ink px-3 py-2"
@@ -49,17 +59,9 @@ export default function Navbar() {
           </button>
         </div>
 
-        <div className={`${open ? "flex" : "hidden"} lg:flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 lg:gap-8 border-t border-primary-200/60 py-4`}>
-          <nav className="flex flex-col lg:flex-row gap-4 lg:gap-8">
-            {/* On small screens show the full nav; on large screens only the secondary set */}
-            <div className="flex flex-col lg:hidden gap-4">
-              {nav.primary.map((item) => (
-                <NavItem key={item.path} to={item.path} onClick={close}>
-                  {item.label}
-                </NavItem>
-              ))}
-            </div>
-            {nav.secondary.map((item) => (
+        <div className={`${open ? "flex" : "hidden"} lg:hidden flex-col gap-4 border-t border-primary-200/60 py-4`}>
+          <nav className="flex flex-col gap-4">
+            {nav.items.map((item) => (
               <NavItem key={item.path} to={item.path} onClick={close}>
                 {item.label}
               </NavItem>
@@ -68,7 +70,7 @@ export default function Navbar() {
           <Link
             to="/contact"
             onClick={close}
-            className="inline-flex items-center justify-center bg-primary text-white px-6 py-3 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-primary-700 transition-colors w-full lg:w-auto"
+            className="inline-flex items-center justify-center bg-primary text-white px-6 py-3 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-primary-700 transition-colors w-full"
           >
             Discuss an assignment
           </Link>

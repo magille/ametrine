@@ -13,6 +13,7 @@ const initialForm = {
   startDate: "",
   deadline: "",
   description: "",
+  file: "",
   consent: false,
 }
 
@@ -147,6 +148,15 @@ export default function Contact() {
                   onChange={update("description")}
                   className="input min-h-[140px]"
                   placeholder="Objectives, expected deliverables, timeline and budget parameters where available"
+                />
+              </Field>
+
+              <Field label="Terms of reference or background document (optional — PDF or DOCX, max 10 MB)">
+                <input
+                  onChange={update("file")}
+                  className="input"
+                  type="file"
+                  accept=".pdf,.doc,.docx"
                 />
               </Field>
 

@@ -1,22 +1,20 @@
 import { Link } from "react-router-dom"
 import { nav, siteMeta } from "../data/content"
-import logoWhite from "../assets/logo-white.png"
+import logoPurple from "../assets/logo-purple-full.jpeg"
 
 export default function Footer() {
   return (
     <footer className="border-t border-primary-200/60">
       <div className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
         <div>
-          <div className="bg-primary-900 w-40 h-40 flex items-center justify-center p-4 mb-6">
-            <img src={logoWhite} alt={siteMeta.fullName} className="w-full h-full object-contain" />
-          </div>
-          <p className="text-neutral-600 max-w-xs">{siteMeta.footerTagline}</p>
+          <img src={logoPurple} alt={siteMeta.fullName} className="w-32 h-32 border border-primary-200/60 object-cover" />
+          <p className="text-neutral-600 max-w-xs mt-4">{siteMeta.footerTagline}</p>
         </div>
 
         <div>
           <p className="font-heading uppercase text-sm font-bold text-neutral-500 mb-4">Site</p>
           <ul className="space-y-3">
-            {[...nav.primary, ...nav.secondary].map((item) => (
+            {nav.items.map((item) => (
               <li key={item.path}>
                 <Link to={item.path} className="text-ink hover:text-primary transition-colors">
                   {item.label}

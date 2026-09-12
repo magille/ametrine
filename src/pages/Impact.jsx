@@ -22,9 +22,9 @@ export default function Impact() {
       <section className="max-w-6xl mx-auto px-6 py-16">
         <SpecSheet
           title={impact.proofPoints.title}
-          meta={impact.proofPoints.meta}
           sheet={impact.proofPoints.sheet}
           rows={impact.proofPoints.rows}
+          footnote={impact.proofPoints.footnote}
         />
       </section>
 
