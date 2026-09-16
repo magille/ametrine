@@ -29,7 +29,11 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex items-center justify-between py-3 gap-4">
           <NavLink to="/" className="flex items-center shrink-0" onClick={close} aria-label="Ametrine Consulting home">
-            <img src={fullLogo} alt="Ametrine Consulting" className="h-16 w-32 object-contain object-center sm:h-20 sm:w-40" />
+            <img
+              src={fullLogo}
+              alt="Ametrine Consulting"
+              className="h-16 w-32 object-contain object-center mix-blend-multiply sm:h-20 sm:w-40"
+            />
           </NavLink>
 
           <nav className="hidden lg:flex items-center gap-7">
