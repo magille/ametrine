@@ -14,6 +14,16 @@ body {
   @apply font-body text-ink bg-paper antialiased;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.32'/%3E%3C/svg%3E");
+  z-index: 20;
+}
+
 h1, h2, h3, h4, h5, h6 {
   @apply font-heading uppercase tracking-tight;
 }
@@ -65,7 +75,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(74,27,158,0.78), rgba(78,205,196,0.35));
+  background: linear-gradient(135deg, rgba(74,27,158,0.82), rgba(78,205,196,0.3));
   mix-blend-mode: multiply;
 }
 .duotone.light::after {

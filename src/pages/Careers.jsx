@@ -1,8 +1,9 @@
 import BlueprintCard from "../components/BlueprintCard"
 import Button from "../components/Button"
-import { careers } from "../data/content"
+import { useContent } from "../data/contentApi.jsx"
 
 export default function Careers() {
+  const { content: { careers } } = useContent()
   return (
     <div>
       <section className="max-w-6xl mx-auto px-6 pt-16 pb-8">

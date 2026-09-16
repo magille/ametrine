@@ -1,7 +1,7 @@
 import { useState } from "react"
 import BlueprintCard from "../components/BlueprintCard"
 import Button from "../components/Button"
-import { contact } from "../data/content"
+import { useContent } from "../data/contentApi.jsx"
 
 const initialForm = {
   fullName: "",
@@ -20,6 +20,7 @@ const initialForm = {
 const contactEndpoint = import.meta.env.VITE_CONTACT_FORM_ENDPOINT
 
 export default function Contact() {
+  const { content: { contact } } = useContent()
   const [form, setForm] = useState(initialForm)
   const [submitted, setSubmitted] = useState(false)
   const [error, setError] = useState("")

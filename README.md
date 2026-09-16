@@ -23,13 +23,15 @@ Requires Node.js 18+.
 ## Things to finish before launch
 
 1. **Contact form backend.** The form in `src/pages/Contact.jsx` supports an optional `VITE_CONTACT_FORM_ENDPOINT` environment variable for a real backend or form-service submission (for example Formspree or a custom API endpoint). When no endpoint is configured, it gracefully falls back to the local confirmation flow and shows a clear error if the request cannot be sent.
-2. **Photography.** The duotone images on the Home, About and Impact pages (`src/assets/photos/`) are abstract placeholders, not real photos. Swap them for your own photography — drop a new image into that folder and update the `import` at the top of the matching page file.
+2. **Photography.** The duotone images on the Home, About and Impact pages live in `src/assets/photos/`. Swap in different image files there if you want a different editorial look while keeping the same import paths.
 3. **Domain & hosting.** This is a static site — it can be deployed to Netlify, Vercel, Cloudflare Pages, or any static host by running `npm run build` and uploading the `dist/` folder. Point `ametrine.tz` at whichever host you choose.
 4. **Careers & Insights content.** The Careers page and Insights article list currently show placeholder states ("Check back", "Open to expressions of interest", article titles with no full articles yet) — update `src/data/content.js` as real openings, consultants and articles become available.
 
 ## Editing content
 
 Nearly all of the site's text lives in one file: `src/data/content.js`. Section by section, it holds the home page copy, about page copy, all 6 services, sectors, impact stats, insights articles, FAQ, careers tracks and contact details — edit the text there and it updates everywhere it's used.
+
+The site also exposes that content through `public/content.json`, which is loaded at runtime. This creates a CMS-ready content boundary: a future admin panel or hosted CMS can replace that JSON feed without changing the page components. After editing the source model, run `npm run content:sync` to regenerate the feed. The app falls back to the bundled content if the runtime feed is unavailable.
 
 ## Project structure
 

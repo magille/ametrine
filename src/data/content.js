@@ -31,17 +31,6 @@ export const home = {
     ctaPrimary: "Explore our services",
     ctaSecondary: "Get in Touch",
   },
-  credibility: {
-    title: "Credibility — Record of Practice",
-    meta: "Dar es Salaam, TZ",
-    sheet: "01",
-    rows: [
-      { value: "18+ yrs", label: "Senior MEL and research leadership." },
-      { value: "500+", label: "Professionals trained in MEL, data, quality improvement and related disciplines." },
-      { value: "Gov · Donor · CSO", label: "Experience supporting government, donor-funded and civil-society programmes." },
-      { value: "Full cycle", label: "Strategy, field research, data systems, analysis, learning and reporting." },
-    ],
-  },
   whoWeAre: {
     eyebrow: "01 · Who we are",
     title: "Evidence, learning and performance advisory",

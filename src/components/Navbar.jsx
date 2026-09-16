@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { NavLink, Link } from "react-router-dom"
-import { nav } from "../data/content"
-import logoMark from "../assets/logo-mark.png"
+import { useContent } from "../data/contentApi.jsx"
+import fullLogo from "../assets/ametrine-navbar-logo.jpeg"
 
 function NavItem({ to, children, onClick }) {
   return (
@@ -22,17 +22,19 @@ function NavItem({ to, children, onClick }) {
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
+  const { content: { nav } } = useContent()
   const close = () => setOpen(false)
 
   return (
     <header className="sticky top-0 z-50 bg-paper/95 backdrop-blur border-b border-primary-200/60">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex items-center justify-between py-3 gap-4">
-          <NavLink to="/" className="flex items-center gap-2.5 shrink-0" onClick={close}>
-            <img src={logoMark} alt="" className="h-9 w-auto" />
-            <span className="font-heading uppercase font-semibold text-2xl tracking-wide leading-none text-ink">
-              Ametrine<span className="text-teal">.</span>
-            </span>
+          <NavLink to="/" className="flex items-center shrink-0" onClick={close} aria-label="Ametrine Consulting home">
+            <img
+              src={fullLogo}
+              alt="Ametrine Consulting"
+              className="h-16 w-32 object-contain object-center mix-blend-multiply sm:h-20 sm:w-40"
+            />
           </NavLink>
 
           <nav className="hidden lg:flex items-center gap-7">
