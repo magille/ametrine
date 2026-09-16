@@ -4,6 +4,7 @@ import SectionHeading from "../components/SectionHeading"
 import BlueprintCard from "../components/BlueprintCard"
 import DuotoneImage from "../components/DuotoneImage"
 import CtaBand from "../components/CtaBand"
+import SpecSheet from "../components/SpecSheet"
 import { useContent } from "../data/contentApi.jsx"
 import heroPhoto from "../assets/photos/hero.jpg"
 import whoWeArePhoto from "../assets/photos/impact.jpg"
@@ -41,6 +42,15 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="max-w-6xl mx-auto px-6 py-10 md:py-12">
+        <SpecSheet
+          title={home.credibility.title}
+          meta={home.credibility.meta}
+          sheet={home.credibility.sheet}
+          rows={home.credibility.rows}
+        />
+      </section>
+
       {/* Who we are */}
       <section className="max-w-6xl mx-auto px-6 py-10 md:py-12">
         <div className="grid md:grid-cols-2 gap-8 md:gap-14">
@@ -69,6 +79,18 @@ export default function Home() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="max-w-6xl mx-auto px-6 py-12 md:py-16">
+        <SectionHeading eyebrow={home.difference.eyebrow} title={home.difference.title} />
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {home.difference.items.map((item, index) => (
+            <BlueprintCard key={item} className="p-6">
+              <p className="font-heading text-sm font-bold text-primary-500 mb-3">{String(index + 1).padStart(2, "0")}</p>
+              <p className="text-neutral-700">{item}</p>
+            </BlueprintCard>
+          ))}
         </div>
       </section>
 

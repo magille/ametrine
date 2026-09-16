@@ -96,6 +96,28 @@ export default function Services() {
                 </div>
               </div>
             )}
+
+            {active.secondaryItems?.length > 0 && (
+              <div>
+                <h3 className="text-2xl font-bold uppercase font-heading mb-5 pb-3 border-b border-primary-200/60">
+                  {active.secondaryTitle}
+                </h3>
+                <ul>
+                  {active.secondaryItems.map((item, i) => (
+                    <li key={i} className="flex gap-3 py-3 border-b border-primary-200/40 text-neutral-700">
+                      <span className="text-primary-500 font-bold">—</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {active.engagementNote && (
+              <div className="border-l-2 border-primary-400 pl-5">
+                <p className="text-neutral-700">{active.engagementNote}</p>
+              </div>
+            )}
           </div>
 
           <div className="flex flex-wrap gap-4 mt-12">
