@@ -22,7 +22,7 @@ Requires Node.js 18+.
 
 ## Things to finish before launch
 
-1. **Contact form backend.** The form in `src/pages/Contact.jsx` currently only shows a confirmation message locally — it does not send an email yet. Wire it up to something like [Formspree](https://formspree.io), [EmailJS](https://www.emailjs.com), or your own API endpoint (search for the `handleSubmit` function and the `NOTE:` comment above it).
+1. **Contact form backend.** The form in `src/pages/Contact.jsx` supports an optional `VITE_CONTACT_FORM_ENDPOINT` environment variable for a real backend or form-service submission (for example Formspree or a custom API endpoint). When no endpoint is configured, it gracefully falls back to the local confirmation flow and shows a clear error if the request cannot be sent.
 2. **Photography.** The duotone images on the Home, About and Impact pages (`src/assets/photos/`) are abstract placeholders, not real photos. Swap them for your own photography — drop a new image into that folder and update the `import` at the top of the matching page file.
 3. **Domain & hosting.** This is a static site — it can be deployed to Netlify, Vercel, Cloudflare Pages, or any static host by running `npm run build` and uploading the `dist/` folder. Point `ametrine.tz` at whichever host you choose.
 4. **Careers & Insights content.** The Careers page and Insights article list currently show placeholder states ("Check back", "Open to expressions of interest", article titles with no full articles yet) — update `src/data/content.js` as real openings, consultants and articles become available.

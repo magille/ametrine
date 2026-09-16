@@ -7,8 +7,8 @@ const variants = {
   onDark: "bg-primary-200 text-primary-900 border border-primary-200 hover:bg-white",
 }
 
-export default function Button({ to, href, onClick, variant = "primary", children, type = "button", className = "" }) {
-  const classes = `inline-flex items-center justify-center gap-2 px-6 py-3 font-heading uppercase tracking-wide text-sm font-semibold transition-colors duration-150 ${variants[variant]} ${className}`
+export default function Button({ to, href, onClick, variant = "primary", children, type = "button", className = "", disabled = false }) {
+  const classes = `inline-flex items-center justify-center gap-2 px-6 py-3 font-heading uppercase tracking-wide text-sm font-semibold transition-colors duration-150 ${variants[variant]} ${disabled ? "opacity-60 cursor-not-allowed" : ""} ${className}`
 
   if (to) {
     return (
@@ -25,7 +25,7 @@ export default function Button({ to, href, onClick, variant = "primary", childre
     )
   }
   return (
-    <button type={type} onClick={onClick} className={classes}>
+    <button type={type} onClick={onClick} className={classes} disabled={disabled}>
       {children}
     </button>
   )
