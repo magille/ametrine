@@ -38,7 +38,7 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <DuotoneImage src={heroPhoto} alt="Monitoring and evaluation professionals working with communities in Africa" ratio="aspect-[4/5]" />
+          <DuotoneImage src={heroPhoto} alt="Sunrise over a landscape, symbolising fresh insight and new possibilities" ratio="aspect-[4/5]" />
         </div>
       </section>
 
@@ -59,7 +59,7 @@ export default function Home() {
             </p>
             <div className="h-px w-full bg-primary-200/60 mb-6" />
             <h2 className="text-4xl md:text-5xl font-bold leading-[0.95] text-ink">{home.whoWeAre.title}</h2>
-            <DuotoneImage src={whoWeArePhoto} alt="Team at work in the field" ratio="aspect-[4/3]" className="mt-6" />
+            <DuotoneImage src={whoWeArePhoto} alt="Warm evening light across a landscape, reflecting thoughtful and grounded advisory work" ratio="aspect-[4/3]" className="mt-6" />
           </div>
           <div className="md:pt-14">
             <div className="space-y-5 text-neutral-700 text-lg leading-relaxed">

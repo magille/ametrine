@@ -20,7 +20,7 @@ export default function About() {
           <div className="space-y-5 text-lg text-neutral-700 leading-relaxed md:pt-3">
             {about.story.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
           </div>
-          <DuotoneImage src={aboutPhoto} alt="Ametrine consultants supporting monitoring, evaluation and learning in Africa" ratio="aspect-[3/4]" className="max-w-sm" />
+          <DuotoneImage src={aboutPhoto} alt="Golden-hour landscape reflecting Ametrine's grounded approach to evidence and learning" ratio="aspect-[3/4]" className="max-w-sm" />
         </div>
       </section>
 
