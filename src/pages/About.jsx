@@ -19,16 +19,17 @@ function LeaderAvatar() {
 export default function About() {
   return (
     <div>
-      <section className="max-w-6xl mx-auto px-6 pt-16">
+      <section className="max-w-6xl mx-auto px-6 pt-16 pb-16">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           {about.eyebrow}
         </p>
         <div className="h-px w-full bg-primary-200/60 mb-8" />
-        <h1 className="text-5xl md:text-6xl font-bold leading-[0.95] mb-8">{about.story.title}</h1>
-        <p className="text-lg text-neutral-700 max-w-3xl mb-16">{about.story.paragraph}</p>
+        <h1 className="text-5xl md:text-6xl font-bold leading-[0.95] mb-10">{about.story.title}</h1>
+        <div className="grid md:grid-cols-2 gap-10 items-start">
+          <p className="text-lg text-neutral-700">{about.story.paragraph}</p>
+          <DuotoneImage src={aboutPhoto} alt="Infrastructure and systems in Tanzania" ratio="aspect-[3/4]" className="max-w-sm" />
+        </div>
       </section>
-
-      <DuotoneImage src={aboutPhoto} alt="Infrastructure and systems in Tanzania" />
 
       {/* Leadership team */}
       <section className="max-w-6xl mx-auto px-6 py-16">

@@ -27,7 +27,7 @@ export const home = {
     eyebrow: "Rare Insight. Real Impact.",
     headlineTop: "Evidence that strengthens decisions.",
     headlineAccent: "Systems that sustain impact.",
-    body: "Just as ametrine is one of the world's rarest gems — formed where two crystals, amethyst and citrine, meet — our consulting work sits at a rare intersection of evidence, strategy and purpose, delivering impact that is tangible and lasting.",
+    body: "Crisp, confident, and punchy. Just as ametrine is one of the world's rarest gems formed where two crystals; Amethyst and Citrine meet — our consulting work sits at a rare intersection of evidence, strategy, and purpose, delivering impact that is tangible and lasting",
     ctaPrimary: "Explore our services",
     ctaSecondary: "Get in Touch",
   },

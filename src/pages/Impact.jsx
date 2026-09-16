@@ -1,8 +1,6 @@
 import SpecSheet from "../components/SpecSheet"
-import DuotoneImage from "../components/DuotoneImage"
 import CtaBand from "../components/CtaBand"
 import { impact, home } from "../data/content"
-import impactPhoto from "../assets/photos/impact.jpg"
 
 export default function Impact() {
   return (
@@ -16,8 +14,6 @@ export default function Impact() {
         <p className="text-lg text-neutral-700 max-w-2xl mb-3">{impact.narrative}</p>
         <p className="text-neutral-500 max-w-2xl">{impact.note}</p>
       </section>
-
-      <DuotoneImage src={impactPhoto} alt="Communities and programmes across Tanzania" />
 
       <section className="max-w-6xl mx-auto px-6 py-16">
         <SpecSheet

@@ -1,0 +1,341 @@
+"Rare Insight. Real Impact."
+Ametrine is a rare gemstone created where amethyst and citrine meet. That natural convergence inspires our work. We operate at the intersection of evidence and strategy, accountability and learning, technical rigour and human purpose. The result is insight that is not merely interesting, but useful—insight that strengthens decisions, improves programmes and contributes to lasting impact.
+Primary Audiences
+International and national NGOs, foundations and civil-society organisations.
+Bilateral and multilateral development partners and donor-funded programmes.
+Research institutions, universities and professional networks.
+Government Ministries, Departments, Agencies (MDAs) and Local Government Authorities(LGAs).
+Private-sector and social-impact organisations seeking stronger evidence and performance systems.
+Monitoring, Evaluation and Learning (MEL), research, data and programme professionals seeking training or career opportunities.
+Recommended Website Sitemap
+<w:tblPr><w:tblW w:w="0" w:type="auto"/><w:jc w:val="center"/><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="3216"/><w:gridCol w:w="3216"/><w:gridCol w:w="4032"/></w:tblGrid><w:tr w:rsidR="00290C85" w:rsidRPr="00FA4B63" w14:paraId="204BF6C2" w14:textId="77777777" w:rsidTr="00FA4B63"><w:trPr><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="3216" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="EEECE1" w:themeFill="background2"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="1705C21A" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:b/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Main menu
+<w:tcPr><w:tcW w:w="3216" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="EEECE1" w:themeFill="background2"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="52F41D7C" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:b/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Subpages / anchors
+<w:tcPr><w:tcW w:w="3216" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="EEECE1" w:themeFill="background2"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="7A1C072B" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:b/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Primary user goal
+<w:trPr><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="2232" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F5F8FA"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="1D4626F4" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Home
+<w:tcPr><w:tcW w:w="3024" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F5F8FA"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="27511424" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Overview; proof; featured services; impact; CTA
+<w:tcPr><w:tcW w:w="4032" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F5F8FA"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="6C7E7713" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Understand value quickly
+<w:trPr><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="2232" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="20B07BAA" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>About
+<w:tcPr><w:tcW w:w="3024" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="2D84E228" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Our Story; Leadership; Values; Approach; Impact
+<w:tcPr><w:tcW w:w="4032" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="5DE4D140" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Build trust
+<w:trPr><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="2232" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F5F8FA"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="5FD528CA" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Services
+<w:tcPr><w:tcW w:w="3024" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F5F8FA"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="0F8AB5D6" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Six detailed service pages
+<w:tcPr><w:tcW w:w="4032" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F5F8FA"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="576E8E29" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Match a need to a solution
+<w:trPr><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="2232" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="79A31F40" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Sectors
+<w:tcPr><w:tcW w:w="3024" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="01F2D031" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Health; Nutrition; Education; Governance; Protection; Livelihoods
+<w:tcPr><w:tcW w:w="4032" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="5B2997AE" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Verify sector relevance
+<w:trPr><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="2232" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F5F8FA"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="30E81EDF" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Experience
+<w:tcPr><w:tcW w:w="3024" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F5F8FA"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="53F52A8D" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Selected assignments; partners; outcomes
+<w:tcPr><w:tcW w:w="4032" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F5F8FA"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="7F6E3F62" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Assess track record
+<w:trPr><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="2232" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="7FEE211E" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Insights
+<w:tcPr><w:tcW w:w="3024" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="6D798311" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Publications; articles; tools; FAQs
+<w:tcPr><w:tcW w:w="4032" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="69A61716" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Access knowledge
+<w:trPr><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="2232" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F5F8FA"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="16AAFAD7" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Careers
+<w:tcPr><w:tcW w:w="3024" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F5F8FA"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="3865BD22" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Openings; consultant network; internships
+<w:tcPr><w:tcW w:w="4032" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F5F8FA"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="32158F94" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Join the team
+<w:trPr><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="2232" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="164B764C" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Contact
+<w:tcPr><w:tcW w:w="3024" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="6805FC21" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Details; map; inquiry form
+<w:tcPr><w:tcW w:w="4032" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:left w:w="130" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:right w:w="130" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p w14:paraId="48A660E0" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="0"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>Start a conversation
+Home Page
+The home page should communicate the firm’s identity, credibility and practical value in under one minute, then guide different visitors toward services, experience or contact.
+Hero Section
+<w:tblPr><w:tblW w:w="0" w:type="auto"/><w:jc w:val="center"/><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="9648"/></w:tblGrid><w:tr w:rsidR="00290C85" w:rsidRPr="00FA4B63" w14:paraId="5E0F0FF1" w14:textId="77777777"><w:trPr><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="9648" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="EAF6F5"/><w:tcMar><w:top w:w="160" w:type="dxa"/><w:left w:w="180" w:type="dxa"/><w:bottom w:w="160" w:type="dxa"/><w:right w:w="180" w:type="dxa"/></w:tcMar></w:tcPr><w:p w14:paraId="5CB50F53" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="80"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:b/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>HEADLINE
+Evidence that strengthens decisions. Systems that sustain impact.
+Ametrine Consulting helps governments, development partners, NGOs and mission-driven organisations design stronger Monitoring, Evaluation and Learning (MEL) systems; conduct rigorous research and evaluations; improve data quality; and turn complex evidence into practical action.
+Primary CTA: Explore Our Services
+Secondary CTA: Discuss Your Assignment
+Credibility Strip
+18+ years of senior MEL and research leadership.
+500+ professionals trained in MEL, data, quality improvement and related disciplines.
+Experience supporting government, donor-funded and civil-society programmes.
+Expertise spanning strategy, field research, data systems, analysis, learning and reporting.
+Who We Are
+Ametrine Consulting is evidence, learning and performance advisory firm based in Dar es Salaam, Tanzania. We work across the full results cycle—from theories of change and indicator frameworks to data collection, evaluation, visualisation, learning and adaptive management. Our consultants combine deep contextual understanding with internationally recognised approaches, helping clients produce evidence they can trust and use.
+We believe good MEL is more than reporting. It is a management capability: a way to ask better questions, identify risks early, listen to stakeholders, learn from implementation and direct resources toward the outcomes that matter most.
+Featured Services
+Research, Evaluation & Learning
+Independent studies and evaluations that combine methodological rigour, ethical practice and useful recommendations.
+MEL Systems Development and Institutional Development
+Practical frameworks, plans, indicators, tools, Standard Operating Procedures (SOPs) and governance arrangements that teams can implement.
+Data Quality & Digital Insights
+Stronger data flows, quality controls, analysis, dashboards and visual products for faster decision-making.
+Capacity & Talent Solutions
+Training, coaching and specialised recruitment to build capable, confident and sustainable MEL functions.
+Proposal & Programme Design
+Donor-responsive concepts, theories of change, results frameworks, budgets and implementation narratives.
+Knowledge & Learning
+Case studies, learning briefs, after-action reviews and knowledge products that make experience reusable.
+Our Difference
+End-to-end capability: strategy, design, fieldwork, analysis, reporting, communication and use of findings.
+Senior-level leadership: extensive experience managing complex, multi-stakeholder and donor-funded programmes.
+Context-responsive methods: approaches designed for the operating environment, population and decisions at hand.
+Ethics and data responsibility: informed consent, confidentiality, safeguarding, secure data handling and transparent limitations.
+Usable deliverables: clear reports, decision-ready recommendations, dashboards, tools and implementation roadmaps.
+Capacity transfer: collaborative delivery that leaves client teams stronger after the assignment.
+Closing CTA
+<w:tblPr><w:tblW w:w="0" w:type="auto"/><w:jc w:val="center"/><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="9648"/></w:tblGrid><w:tr w:rsidR="00290C85" w:rsidRPr="00FA4B63" w14:paraId="377E076C" w14:textId="77777777"><w:trPr><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="9648" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F4F1F8"/><w:tcMar><w:top w:w="160" w:type="dxa"/><w:left w:w="180" w:type="dxa"/><w:bottom w:w="160" w:type="dxa"/><w:right w:w="180" w:type="dxa"/></w:tcMar></w:tcPr><w:p w14:paraId="5076CD9E" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="80"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:b/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>READY TO MAKE EVIDENCE WORK HARDER?
+Whether you are designing a new programme, strengthening an existing MEL system, commissioning an independent evaluation or improving data use, Ametrine can help you move forward with clarity. Talk to us about your objectives, timeline and expected deliverables.
+ABOUT AMETRINE
+Our Story
+Ametrine Consulting was established from a clear conviction: development organisations generate large volumes of information, but the real value of data emerges only when it is credible, understood and used. Ametrine brings together senior expertise in monitoring, evaluation, research, learning, strategic information, quality assurance and organisational strengthening to help clients close that gap.
+Our experience has been shaped by work with government systems, donor agencies, international and national NGOs, civil-society organisations, health facilities, education institutions and community structures. We understand the realities behind the numbers: limited capacity, complex reporting requirements, fragmented systems, competing priorities and the need to demonstrate results without losing sight of the people a programme exists to serve.
+Like the rare gemstone from which we take our name, Ametrine represents convergence. We unite quantitative and qualitative evidence; global standards and local knowledge; accountability and learning; analytical depth and clear communication. This balanced approach enables us to deliver “Rare Insight. Real Impact.”
+Vision
+To be a trusted regional hub for evidence-based solutions that strengthen institutions, improve programmes and contribute to better lives.
+Mission
+To deliver rigorous, ethical and context-responsive monitoring, evaluation, research, learning and advisory services that promote accountability, informed decision-making, continuous improvement and sustainable impact.
+Our Values
+Integrity
+We are honest about evidence, methods, limitations and results. We protect confidentiality and uphold professional and research ethics.
+Excellence
+We apply disciplined quality assurance and produce work that is technically sound, clear, useful and fit for purpose.
+Partnership
+We listen, co-create and work respectfully with clients, communities and stakeholders.
+Learning
+We treat every assignment as an opportunity to test assumptions, generate insight and improve future performance.
+Innovation
+We use appropriate technologies, analytical techniques and communication formats to solve real problems.
+Inclusion
+We seek diverse perspectives and design methods that recognise gender, age, disability and other dimensions of exclusion.
+Impact
+We focus on practical change—not activity for its own sake—and on strengthening the systems that sustain results.
+How We Work
+Listen and frame the decision. We clarify the purpose, users, questions, context and practical constraints before selecting methods.
+Co-design a fit-for-purpose approach. We align the methodology, sampling, tools, indicators and outputs with the decisions the evidence must inform.
+Deliver with discipline. We use clear protocols, trained teams, field supervision, daily quality checks and documented version control.
+Analyse for meaning. We triangulate sources, examine patterns and differences, test interpretations and distinguish evidence from inference.
+Communicate for use. We translate findings into concise narratives, visuals, recommendations and implementation priorities.
+Strengthen ownership. We validate findings, transfer skills and provide tools or roadmaps that client teams can sustain.
+Leadership Snapshot
+18+ years in MEL, research, strategic information and quality assurance.
+Experience with USAID, CDC, PEPFAR, UNICEF, Norad, World Bank-funded initiatives and government counterparts.
+Leadership of MEL functions for multi-million-dollar health and development programmes.
+Advanced working capability in SPSS, NVivo, ATLAS.ti and Power BI, supported by experience with DHIS2 and KoboToolbox.
+Training and mentoring of more than 500 professionals.
+Professional fluency in English and native fluency in Swahili.
+OUR OFFER
+Service 1 — Research, Evaluation and Learning
+Independent evidence must be credible enough to withstand scrutiny and practical enough to guide action. Ametrine designs and delivers mixed-methods studies that answer important programme and policy questions.
+What We Do
+Baseline and endline studies.
+Mid-term reviews, final evaluations and outcome evaluations.
+Process, performance and implementation evaluations.
+Needs, feasibility, affordability and sustainability assessments.
+Gender, power, inclusion and social-norms analyses.
+Organisational and institutional capacity assessments.
+Beneficiary satisfaction and perception studies.
+Operational and formative research.
+Policy, strategy and programme reviews.
+Case studies, evidence synthesis and learning reviews.
+Our Evaluation Approach
+We begin by clarifying the intended use of the study and developing an evaluation matrix that links each question to indicators, sources, methods and analytical approaches. Depending on the assignment, we combine surveys, document review, key-informant interviews, focus groups, observation, participatory methods and secondary-data analysis. Sampling is designed to provide the appropriate level of representativeness and diversity while remaining feasible and ethical.
+Analysis goes beyond description. We disaggregate findings, investigate variation, compare perspectives and triangulate evidence. 
+Typical Deliverables
+Inception report and evaluation matrix.
+Sampling strategy and fieldwork plan.
+English and Swahili data-collection tools.
+Ethics, consent, safeguarding and data-protection protocols.
+Clean datasets, codebooks and analysis syntax where agreed.
+Draft and final reports with clear findings and recommendations.
+Executive summaries, briefs, dashboards and presentation decks.
+Validation workshops and management-response matrices.
+When to Engage Us
+Engage Ametrine when you need independent evidence for programme design, accountability, learning, strategic review, scale-up or close-out—and when the usefulness of the findings matters as much as methodological quality.
+OUR OFFER
+Service 2 — MEL Systems Development and Strengthening
+A strong MEL system aligns strategy, people, processes, tools and technology. We help organisations build systems that are proportionate, integrated and usable—not collections of templates that sit on a shelf.
+Core Solutions
+Theory of Change and results-chain development or refinement.
+Logical frameworks, results frameworks and performance-measurement plans.
+Indicator selection, definition, reference sheets, baselines and targets.
+MEL policies, frameworks, plans, manuals, operational guides and SOPs.
+Data-flow mapping, reporting calendars and roles/responsibilities matrices.
+Data-quality systems, assessment protocols and improvement plans.
+Learning agendas, knowledge-management plans and adaptive-management routines.
+MEL readiness, maturity and Organisational Capacity Assessments (OCA).
+Partner reporting systems and indicator-tracking tools.
+System reviews, harmonisation and interoperability roadmaps.
+OUR OFFER
+Service 3 — Data Management, Quality and Visualisation
+Reliable decisions require reliable data. Ametrine helps clients improve the entire data pathway—from tool design and collection through cleaning, analysis, visualisation, reporting and secure retention.
+Data Collection and Management
+Questionnaire, interview-guide, checklist and register development.
+Digital form design and deployment using platforms such as KoboToolbox.
+Database structure, coding frameworks, validation rules and codebooks.
+Field team training, piloting and submission testing.
+Daily monitoring, data-quality queries and correction workflows.
+Data cleaning, de-identification, documentation and secure archiving.
+Data-processing plans and reproducible analysis workflows.
+Data Quality Assurance (DQA)
+We assess whether data are valid, reliable, complete, precise, timely and protected. DQA work may include indicator verification, source-document review, recounting, reporting-chain assessment, system and capacity review, risk scoring, corrective-action planning and follow-up. Our approach treats DQA as a learning and system-improvement process rather than a one-time compliance exercise.
+Analysis and Visualisation
+We translate data into clear, decision-ready products tailored to executive, technical and public audiences. Outputs may include interactive dashboards, scorecards, maps, infographics, automated charts, survey tables, qualitative themes and narrative briefs. We apply appropriate disaggregation and explain uncertainty, definitions and limitations.
+Tools and Platforms
+Data analysis: Excel, Google Sheets, SPSS, Stata, R, Python and SAS, selected according to the assignment.
+Qualitative analysis: NVivo and ATLAS.ti.
+Visualisation and business intelligence: Power BI, Tableau, Looker Studio, Flourish, Infogram, Plotly, RAWGraphs and Qlik Sense.
+Digital collection and information systems: KoboToolbox, DHIS2 and context-specific databases.
+Web visualisation where required: D3.js and Chart.js.
+OUR OFFER
+Service 4 — MEL Talent Recruitment and Deployment
+The effectiveness of a MEL function depends on the people behind it. Ametrine helps organisations define roles, assess technical capability and identify professionals who can deliver in the realities of the assignment.
+Recruitment Support
+Workforce needs assessment and role scoping.
+Development of competency-based job descriptions and vacancy notices.
+Candidate sourcing and longlisting.
+Technical screening, written tests, case exercises and structured interviews.
+Reference-check support and selection documentation.
+Gender-responsive and inclusive recruitment considerations.
+Onboarding plans, probation objectives and performance indicators.
+Roles We Can Support
+MEL directors, managers, advisors, specialists and officers.
+Research managers, study coordinators and field supervisors.
+Data analysts, statisticians, database officers and dashboard developers.
+Knowledge-management, learning and communications specialists.
+Qualitative researchers, moderators, transcribers and translators.
+Enumerators, data-entry personnel and short-term field teams.
+OUR OFFER
+Service 5 — Concept Notes, Proposals and Programme Design
+A strong proposal connects a compelling problem, a credible response, measurable results and a realistic delivery model. Ametrine supports organisations to develop submissions that are responsive, evidence-informed and implementation-ready.
+Support Areas
+Opportunity and donor-requirement analysis.
+Stakeholder and problem analysis.
+Concept-note and full-proposal development.
+Theory of Change, logical framework and results framework.
+Methodology, sampling and implementation approach.
+Workplan, staffing, governance and risk management.
+MEL, learning, accountability and data-use sections.
+Gender equality, disability inclusion, safeguarding and climate-resilience integration.
+Budget narrative and alignment between activities, level of effort and costs.
+Compliance review, editing, formatting and presentation support.
+OUR OFFER
+Service 6 — Training, Facilitation and Capacity Strengthening
+Training has value when people can apply it. We combine adult-learning principles, practical exercises, real tools and follow-up support to build confidence and improve performance.
+Training Topics
+MEL foundations and results-based management.
+Theory of Change, logical frameworks and indicator design.
+MEL plans, data flows, reporting and learning routines.
+Data Quality Assessment and routine quality control.
+Questionnaire design, sampling and digital data collection.
+Quantitative analysis using Excel, SPSS and related tools.
+Qualitative research, coding, analysis and triangulation.
+Power BI and data visualisation for decision-making.
+Evaluation design, management and use.
+Knowledge management, case studies and learning briefs.
+Concept-note and proposal development.
+Research ethics, confidentiality, consent and responsible data practice.
+Delivery Formats
+In-person workshops and facilitated working sessions.
+Virtual instructor-led training.
+Training of Trainers.
+Executive and board-level briefings.
+Hands-on clinics using participants’ own programmes and datasets.
+Coaching, mentoring and post-training technical assistance.
+WHERE WE CONTRIBUTE
+Sector Experience
+Ametrine’s methods are cross-sectoral, while its deepest experience lies in health and nutrition, education, gender and inclusion, child protection, governance, community systems and institutional strengthening.
+Health Systems, HIV and Public Health
+MEL frameworks, strategic information, DHIS2, quality improvement, performance monitoring, health profiles, HIV programming, maternal and child health, community systems and operational research.
+Nutrition and Food Security
+Maternal and child nutrition evaluations, bottleneck analyses, dietary and programme assessments, evidence synthesis and community nutrition programming.
+Education and Skills
+Education-sector DQA guidelines, M&E operational guidance, institutional capacity assessment, training systems and programme-performance tools.
+Gender, Protection and Social Norms
+Gender analyses, parenting and social-norms assessments, safeguarding-sensitive research, child-centred accountability, help-seeking and inclusion.
+Governance and Institutional Performance
+Organisational capacity assessment, policy and strategy alignment, accountability systems, performance frameworks and stakeholder engagement.
+Livelihoods, Climate and Resilience
+Livelihood assessments, resilience and sustainability analysis, climate-sensitive programme design and community-based research.
+WASH and Community Infrastructure
+Governance, sustainability, service quality, community engagement and institutional arrangements for WASH and related services.
+Civil Society and Localisation
+Partner capacity, reporting systems, learning, advocacy evidence, participation and locally owned MEL approaches.
+RESULTS AND CONTRIBUTION
+Our Impact
+Impact statements should distinguish Ametrine’s direct deliverables from broader outcomes to which its work contributed.
+Impact Narrative
+Ametrine helps organisations improve the quality of the questions they ask, the information they collect and the decisions they make. Our contribution may begin with a framework, assessment or dataset, but the intended result is stronger performance: clearer priorities, more credible reporting, faster identification of gaps, better learning and more accountable use of resources.
+Proof Points
+18+ years of leadership and practice in MEL, research and strategic information.
+500+ professionals trained and mentored.
+26 regional and 184 district health profiles developed under senior technical leadership.
+47 USAID implementing partners supported through reporting, DQA and capacity-strengthening work.
+Research and consulting experience across multiple Tanzanian regions and in Zanzibar.
+KNOWLEDGE FOR ACTION
+Resources and Insights
+Insights — Intro Copy
+Our Insights series examines practical questions in monitoring, evaluation, research, learning and data use. We translate technical experience into clear guidance for leaders and practitioners working in complex development settings.
+Recommended Initial Article Topics
+From Reporting to Learning: Seven Signs Your MEL System Is Working.
+How to Design Indicators That Managers Will Actually Use.
+Daily Data Quality Checks for Digital Fieldwork.
+What Makes an Evaluation Recommendation Actionable?
+Building a Power BI Dashboard Around Decisions, Not Decoration.
+Ethical Field Research: Consent, Confidentiality and Do-No-Harm in Practice.
+Triangulation Without Confusion: Integrating Survey, KII and FGD Evidence.
+How to Reduce Reporting Burden Without Losing Accountability.
+Using Social-Norms Evidence in Programme Design.
+Preparing for a Data Quality Assessment: A Practical Checklist.
+Resource CTA
+<w:tblPr><w:tblW w:w="0" w:type="auto"/><w:jc w:val="center"/><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="9648"/></w:tblGrid><w:tr w:rsidR="00290C85" w:rsidRPr="00FA4B63" w14:paraId="45E68007" w14:textId="77777777"><w:trPr><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="9648" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F4F1F8"/><w:tcMar><w:top w:w="160" w:type="dxa"/><w:left w:w="180" w:type="dxa"/><w:bottom w:w="160" w:type="dxa"/><w:right w:w="180" w:type="dxa"/></w:tcMar></w:tcPr><w:p w14:paraId="73361510" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="80"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:b/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>HAVE A QUESTION YOU WOULD LIKE US TO EXPLORE?
+Send us a topic or practical MEL challenge. Selected questions may inform a future article, webinar or downloadable guide.
+HELPFUL ANSWERS
+Frequently Asked Questions
+What types of organisations do you work with?
+We work with government institutions, development partners, international and national NGOs, civil-society organisations, research institutions and mission-driven private-sector organisations.
+Do you work outside Tanzania?
+Ametrine is based in Tanzania and is available for assignments across East Africa and other contexts where our expertise and delivery model are appropriate. Regional engagements are scoped according to local partnerships, logistics and regulatory requirements.
+Can you conduct a complete evaluation?
+Yes. We can support the full cycle: inception, evaluation framework, sampling, ethics, tools, recruitment and training, fieldwork, quality assurance, analysis, reporting, validation and communication of findings.
+Can you strengthen an existing MEL system rather than build a new one?
+Yes. We review what already exists, retain what works and prioritise practical improvements. The aim is not to replace systems unnecessarily, but to make them clearer, more integrated and more useful.
+Do you provide digital data collection and dashboards?
+Yes. Support may include form design, submission testing, field monitoring, data cleaning, Power BI dashboards and other visual products. Technology is selected according to user needs, infrastructure, licences and sustainability.
+How do you protect research participants and data?
+We use consent procedures, confidentiality safeguards, role-based access, de-identification, secure storage and documented data-management practices. Assignments involving sensitive populations or topics include context-specific safeguarding and referral considerations.
+Can you support ethical or IRB clearance?
+Yes. We can prepare the methodological and ethical documentation needed for review and support the submission process. Formal approval remains the responsibility of the relevant authorised review body.
+Do you recruit enumerators and MEL professionals?
+Yes. We can recruit or support recruitment of short-term field teams and specialised MEL or data personnel, including competency-based technical assessment.
+Can you train our team using our own programme materials?
+Yes. Customised training is often the most effective. We can use the organisation’s results framework, indicators, tools or datasets—subject to confidentiality controls—to make learning immediately applicable.
+How do we request a proposal?
+Use the inquiry form or email info@ametrine.tz with the terms of reference or a short description of the need, expected deliverables, location, timeline and budget parameters where available. We will review the request and advise on the next step.
+How long does an assignment take?
+Duration depends on scope, geography, sample, approvals, stakeholder availability and deliverables. A clear term of reference enables us to propose a realistic schedule and level of effort.
+Will you share examples of previous work?
+Where client permission and confidentiality arrangements allow, we can share selected public reports, anonymised samples or references relevant to the assignment.
+WORK WITH US
+START A CONVERSATION
+Contact Us
+Tell us what you are trying to achieve. Whether you have a complete term of reference or an early-stage idea, we can help clarify the evidence, system, capacity or programme-design support you may need.
+Contact Details
+General inquiries: info@ametrine.tz
+Careers and consultant network: careers@ametrine.tz
+Telephone: +255 767 366 630
+Location: Dar es Salaam, Tanzania
+Physical address: Plot # 16 Tanzanite Street, Goba-Dar es Salaam
+Business hours: Mon-Friday: 8am to 5pm
+Recommended Inquiry Form
+Full name.
+Organisation and job title.
+Email address and telephone number (telephone optional).
+Type of support required.
+Country/region and expected assignment location.
+Preferred start date and deadline.
+Brief description of the need.
+Upload terms of reference or background document (optional, with file-type and size limits).
+Consent checkbox linking to the privacy notice.
+Form Confirmation Message
+<w:tblPr><w:tblW w:w="0" w:type="auto"/><w:jc w:val="center"/><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="9648"/></w:tblGrid><w:tr w:rsidR="00290C85" w:rsidRPr="00FA4B63" w14:paraId="2429F440" w14:textId="77777777"><w:trPr><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="9648" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="F4F1F8"/><w:tcMar><w:top w:w="160" w:type="dxa"/><w:left w:w="180" w:type="dxa"/><w:bottom w:w="160" w:type="dxa"/><w:right w:w="180" w:type="dxa"/></w:tcMar></w:tcPr><w:p w14:paraId="0B239A6B" w14:textId="77777777" w:rsidR="00290C85" w:rsidRPr="00FA4B63" w:rsidRDefault="00000000"><w:pPr><w:spacing w:after="80"/><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr></w:pPr><w:r w:rsidRPr="00FA4B63"><w:rPr><w:rFonts w:ascii="Lato" w:hAnsi="Lato"/><w:b/><w:color w:val="auto"/><w:sz w:val="22"/></w:rPr><w:t>THANK YOU FOR CONTACTING AMETRINE
+Your inquiry has been received. A member of our team will review the information and respond within [two business days]. Please do not submit confidential personal data through this form unless requested through an approved secure channel.
+Recommended Search Themes
+Monitoring and evaluation consultancy Tanzania.
+MEL system development East Africa.
+Programme evaluation and baseline survey Tanzania.
+Data Quality Assessment consultancy.
+Power BI dashboard development for NGOs.
+KoboToolbox survey design and data quality.
+Gender analysis and social norms research Tanzania.
+MEL training and capacity building.
+Theory of Change and results framework consulting.
+Research, evaluation and learning services Zanzibar.
