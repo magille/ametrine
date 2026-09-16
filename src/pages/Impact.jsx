@@ -1,9 +1,11 @@
 import SpecSheet from "../components/SpecSheet"
 import CtaBand from "../components/CtaBand"
+import DuotoneImage from "../components/DuotoneImage"
 import { useContent } from "../data/contentApi.jsx"
+import impactPhoto from "../assets/photos/impact.jpg"
 
 export default function Impact() {
-  const { content: { impact, home } } = useContent()
+  const { content: { impact, home, images } } = useContent()
   return (
     <div>
       <section className="max-w-6xl mx-auto px-6 pt-10 pb-8 md:pt-14">
@@ -17,12 +19,17 @@ export default function Impact() {
           <p className="text-lg text-neutral-700 max-w-2xl leading-relaxed">{impact.narrative}</p>
           <p className="border-l-2 border-primary-400 pl-5 text-neutral-500 leading-relaxed">{impact.note}</p>
         </div>
+        <DuotoneImage
+          src={images?.impact || impactPhoto}
+          alt="Sunset light over a landscape, representing the lasting contribution of evidence and learning"
+          ratio="aspect-[16/6]"
+          className="mt-10"
+        />
       </section>
 
       <section className="max-w-6xl mx-auto px-6 py-12 md:py-16">
         <SpecSheet
           title={impact.proofPoints.title}
-          sheet={impact.proofPoints.sheet}
           rows={impact.proofPoints.rows}
           footnote={impact.proofPoints.footnote}
         />

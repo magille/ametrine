@@ -3,25 +3,23 @@ import BlueprintCard from "../components/BlueprintCard"
 import Button from "../components/Button"
 import { useContent } from "../data/contentApi.jsx"
 
-const initialForm = {
-  fullName: "",
-  organisation: "",
-  email: "",
-  phone: "",
-  supportType: contact.form.supportTypes[0],
-  location: "",
-  startDate: "",
-  deadline: "",
-  description: "",
-  file: "",
-  consent: false,
-}
-
 const contactEndpoint = import.meta.env.VITE_CONTACT_FORM_ENDPOINT
 
 export default function Contact() {
   const { content: { contact } } = useContent()
-  const [form, setForm] = useState(initialForm)
+  const [form, setForm] = useState(() => ({
+    fullName: "",
+    organisation: "",
+    email: "",
+    phone: "",
+    supportType: contact.form.supportTypes[0],
+    location: "",
+    startDate: "",
+    deadline: "",
+    description: "",
+    file: "",
+    consent: false,
+  }))
   const [submitted, setSubmitted] = useState(false)
   const [error, setError] = useState("")
   const [isSubmitting, setIsSubmitting] = useState(false)

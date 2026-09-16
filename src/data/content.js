@@ -6,11 +6,18 @@ export const nav = {
     { label: "Home", path: "/" },
     { label: "About", path: "/about" },
     { label: "Services", path: "/services" },
+    { label: "Sectors", path: "/sectors" },
     { label: "Impact", path: "/impact" },
     { label: "Resources", path: "/resources" },
     { label: "Careers", path: "/careers" },
     { label: "Contact", path: "/contact" },
   ],
+}
+
+export const images = {
+  hero: "",
+  about: "",
+  impact: "",
 }
 
 export const audienceTags = [
@@ -27,12 +34,22 @@ export const home = {
     eyebrow: "Rare Insight. Real Impact.",
     headlineTop: "Evidence that strengthens decisions.",
     headlineAccent: "Systems that sustain impact.",
-    body: "Crisp, confident, and punchy. Just as ametrine is one of the world's rarest gems formed where two crystals; Amethyst and Citrine meet — our consulting work sits at a rare intersection of evidence, strategy, and purpose, delivering impact that is tangible and lasting",
-    ctaPrimary: "Explore our services",
-    ctaSecondary: "Get in Touch",
+    body: "Ametrine Consulting helps governments, development partners, NGOs and mission-driven organisations design stronger Monitoring, Evaluation and Learning (MEL) systems; conduct rigorous research and evaluations; improve data quality; and turn complex evidence into practical action.",
+    ctaPrimary: "Explore Our Services",
+    ctaSecondary: "Discuss Your Assignment",
+  },
+  credibility: {
+    title: "Credibility — Record of Practice",
+    meta: "Dar es Salaam, Tanzania",
+    rows: [
+      { value: "18+ yrs", label: "Senior MEL and research leadership." },
+      { value: "500+", label: "Professionals trained in MEL, data, quality improvement and related disciplines." },
+      { value: "Gov · Donor · CSO", label: "Experience supporting government, donor-funded and civil-society programmes." },
+      { value: "Full cycle", label: "Strategy, field research, data systems, analysis, learning and reporting." },
+    ],
   },
   whoWeAre: {
-    eyebrow: "01 · Who we are",
+    eyebrow: "Who we are",
     title: "Evidence, learning and performance advisory",
     body: [
       "Ametrine Consulting is an evidence, learning and performance advisory firm based in Dar es Salaam, Tanzania. We work across the full results cycle—from theories of change and indicator frameworks to data collection, evaluation, visualisation, learning and adaptive management. Our consultants combine deep contextual understanding with internationally recognised approaches, helping clients produce evidence they can trust and use.",
@@ -46,61 +63,70 @@ export const home = {
     ctaPrimary: "Get in Touch",
     ctaSecondary: "See our impact",
   },
+  difference: {
+    eyebrow: "Our Difference",
+    title: "Capability that moves evidence into action",
+    items: [
+      "End-to-end capability: strategy, design, fieldwork, analysis, reporting, communication and use of findings.",
+      "Senior-level leadership: extensive experience managing complex, multi-stakeholder and donor-funded programmes.",
+      "Context-responsive methods: approaches designed for the operating environment, population and decisions at hand.",
+      "Ethics and data responsibility: informed consent, confidentiality, safeguarding, secure data handling and transparent limitations.",
+      "Usable deliverables: clear reports, decision-ready recommendations, dashboards, tools and implementation roadmaps.",
+      "Capacity transfer: collaborative delivery that leaves client teams stronger after the assignment.",
+    ],
+  },
 }
 
 export const about = {
   eyebrow: "About Ametrine",
   story: {
     title: "Our story",
-    paragraph:
-      "Ametrine is a leading firm specialising in MEL and quality assurance. Our mission is to strengthen decision-making through evidence-based insights and inclusive approaches. With a diverse team and a commitment to excellence, we've shaped policies, improved programmes and built resilient systems across sectors.",
+    paragraphs: [
+      "Ametrine Consulting was established from a clear conviction: development organisations generate large volumes of information, but the real value of data emerges only when it is credible, understood and used. Ametrine brings together senior expertise in monitoring, evaluation, research, learning, strategic information, quality assurance and organisational strengthening to help clients close that gap.",
+      "Our experience has been shaped by work with government systems, donor agencies, international and national NGOs, civil-society organisations, health facilities, education institutions and community structures. We understand the realities behind the numbers: limited capacity, complex reporting requirements, fragmented systems, competing priorities and the need to demonstrate results without losing sight of the people a programme exists to serve.",
+      "Like the rare gemstone from which we take our name, Ametrine represents convergence. We unite quantitative and qualitative evidence; global standards and local knowledge; accountability and learning; analytical depth and clear communication. This balanced approach enables us to deliver “Rare Insight. Real Impact.”",
+    ],
   },
-  leaders: [
-    {
-      id: "leader-1",
-      name: "Full Name",
-      title: "Managing Director & Principal Consultant",
-      bio: "Leads Ametrine's technical direction across evaluation, strategic information and quality assurance, with 18+ years supporting USAID, CDC, PEPFAR, UNICEF and government programmes. Has trained and mentored more than 500 MEL professionals. Away from work, an avid long-distance walker and amateur photographer.",
-      email: "managing.director@ametrine.tz",
-    },
-    {
-      id: "leader-2",
-      name: "Full Name",
-      title: "Director, Research & Evaluation",
-      bio: "Designs and leads mixed-methods evaluations, from evaluation matrices and sampling through fieldwork, analysis and validation. Specialises in gender, protection and social-norms research across Tanzania and Zanzibar. Spends weekends coaching a community debate club.",
-      email: "research@ametrine.tz",
-    },
-    {
-      id: "leader-3",
-      name: "Full Name",
-      title: "Lead, Data Systems & Visualisation",
-      bio: "Builds the data pathway — digital collection, quality assurance, analysis and Power BI dashboards that managers actually use. Works fluently across KoboToolbox, DHIS2, SPSS, Stata and R. A keen chess player and mentor to early-career data analysts.",
-      email: "data@ametrine.tz",
-    },
-  ],
   vision:
     "To be a trusted regional hub for evidence-based solutions that strengthen institutions, improve programmes and contribute to better lives.",
   mission:
-    "To deliver high-quality, context-driven MEL services that promote accountability, learning and continuous improvement across sectors.",
+    "To deliver rigorous, ethical and context-responsive monitoring, evaluation, research, learning and advisory services that promote accountability, informed decision-making, continuous improvement and sustainable impact.",
   values: [
-    { title: "Integrity", text: "We uphold the highest ethical standards." },
-    { title: "Excellence", text: "We deliver work of the highest professional quality." },
-    { title: "Partnership", text: "We believe in collaborative engagement." },
-    { title: "Innovation", text: "We embrace technology and creative approaches to problem-solving." },
-    { title: "Impact", text: "We measure our success by the change we help achieve." },
+    { title: "Integrity", text: "We are honest about evidence, methods, limitations and results. We protect confidentiality and uphold professional and research ethics." },
+    { title: "Excellence", text: "We apply disciplined quality assurance and produce work that is technically sound, clear, useful and fit for purpose." },
+    { title: "Partnership", text: "We listen, co-create and work respectfully with clients, communities and stakeholders." },
+    { title: "Learning", text: "We treat every assignment as an opportunity to test assumptions, generate insight and improve future performance." },
+    { title: "Innovation", text: "We use appropriate technologies, analytical techniques and communication formats to solve real problems." },
+    { title: "Inclusion", text: "We seek diverse perspectives and design methods that recognise gender, age, disability and other dimensions of exclusion." },
+    { title: "Impact", text: "We focus on practical change—not activity for its own sake—and on strengthening the systems that sustain results." },
   ],
   whyUs: [
-    { number: "01", title: "Expertise & experience", text: "Over 18 years in MEL and quality assurance work." },
-    { number: "02", title: "Data-driven approach", text: "Enhancing decision-making with reliable evidence." },
-    { number: "03", title: "Comprehensive support", text: "From assessments to learning and reporting." },
-    { number: "04", title: "Commitment to excellence", text: "We go beyond compliance — delivering actionable insights." },
+    { title: "Expertise & experience", text: "Over 18 years in MEL and quality assurance work." },
+    { title: "Data-driven approach", text: "Enhancing decision-making with reliable evidence." },
+    { title: "Comprehensive support", text: "From assessments to learning and reporting." },
+    { title: "Commitment to excellence", text: "We go beyond compliance — delivering actionable insights." },
+  ],
+  approach: [
+    "Listen and frame the decision. We clarify the purpose, users, questions, context and practical constraints before selecting methods.",
+    "Co-design a fit-for-purpose approach. We align the methodology, sampling, tools, indicators and outputs with the decisions the evidence must inform.",
+    "Deliver with discipline. We use clear protocols, trained teams, field supervision, daily quality checks and documented version control.",
+    "Analyse for meaning. We triangulate sources, examine patterns and differences, test interpretations and distinguish evidence from inference.",
+    "Communicate for use. We translate findings into concise narratives, visuals, recommendations and implementation priorities.",
+    "Strengthen ownership. We validate findings, transfer skills and provide tools or roadmaps that client teams can sustain.",
+  ],
+  leadershipSnapshot: [
+    "18+ years in MEL, research, strategic information and quality assurance.",
+    "Experience with USAID, CDC, PEPFAR, UNICEF, Norad, World Bank-funded initiatives and government counterparts.",
+    "Leadership of MEL functions for multi-million-dollar health and development programmes.",
+    "Advanced working capability in SPSS, NVivo, ATLAS.ti and Power BI, supported by experience with DHIS2 and KoboToolbox.",
+    "Training and mentoring of more than 500 professionals.",
+    "Professional fluency in English and native fluency in Swahili.",
   ],
 }
 
 export const services = [
   {
     slug: "research-evaluation-learning",
-    number: "01",
     title: "Research, Evaluation & Learning",
     short: "Independent studies and evaluations that combine methodological rigour, ethical practice and useful recommendations.",
     lede: "Independent evidence must be credible enough to withstand scrutiny and practical enough to guide action. Ametrine designs and delivers mixed-methods studies that answer important programme and policy questions.",
@@ -129,11 +155,11 @@ export const services = [
       "Executive summaries, briefs, dashboards and presentation decks.",
       "Validation workshops and management-response matrices.",
     ],
+    engagementNote: "Engage Ametrine when you need independent evidence for programme design, accountability, learning, strategic review, scale-up or close-out—and when the usefulness of the findings matters as much as methodological quality.",
   },
   {
     slug: "mel-systems-development",
-    number: "02",
-    title: "MEL Systems Development & Strengthening",
+    title: "MEL Systems Development and Strengthening",
     short: "Practical frameworks, plans, indicators, tools, SOPs and governance arrangements that teams can implement.",
     lede: "A strong MEL system aligns strategy, people, processes, tools and technology. We help organisations build systems that are proportionate, integrated and usable — not collections of templates that sit on a shelf.",
     listTitle: "Core solutions",
@@ -155,8 +181,7 @@ export const services = [
   },
   {
     slug: "data-management-quality-visualisation",
-    number: "03",
-    title: "Data Management, Quality & Visualisation",
+    title: "Data Management, Quality and Visualisation",
     short: "Stronger data flows, quality controls, analysis, dashboards and visual products for faster decision-making.",
     lede: "Reliable decisions require reliable data. Ametrine helps clients improve the entire data pathway — from tool design and collection through cleaning, analysis, visualisation, reporting and secure retention.",
     listTitle: "Data collection and management",
@@ -170,19 +195,19 @@ export const services = [
       "Data-processing plans and reproducible analysis workflows.",
     ],
     noteTitle: "Data quality assurance (DQA)",
-    note: "We assess whether data are valid, reliable, complete, precise, timely and protected. DQA work may include indicator verification, source-document review, recounting, reporting-chain assessment, system and capacity review, risk scoring, corrective-action planning and follow-up. Our approach treats DQA as a learning and system-improvement process rather than a one-time compliance exercise. Analysis is translated into decision-ready products for executive, technical and public audiences: interactive dashboards, scorecards, maps, infographics, survey tables, qualitative themes and narrative briefs.",
+    note: "We assess whether data are valid, reliable, complete, precise, timely and protected. DQA work may include indicator verification, source-document review, recounting, reporting-chain assessment, system and capacity review, risk scoring, corrective-action planning and follow-up. Our approach treats DQA as a learning and system-improvement process rather than a one-time compliance exercise.",
     deliverables: [
       "Analysis: Excel, Google Sheets, SPSS, Stata, R, Python and SAS.",
       "Qualitative analysis: NVivo and ATLAS.ti.",
       "Visualisation and BI: Power BI, Tableau, Looker Studio, Flourish, Infogram, Plotly, RAWGraphs, Qlik Sense.",
       "Digital collection and information systems: KoboToolbox, DHIS2 and context-specific databases.",
       "Web visualisation where required: D3.js and Chart.js.",
+      "Analysis and visualisation: interactive dashboards, scorecards, maps, infographics, automated charts, survey tables, qualitative themes and narrative briefs.",
     ],
   },
   {
     slug: "mel-talent-recruitment",
-    number: "04",
-    title: "MEL Talent Recruitment & Deployment",
+    title: "MEL Talent Recruitment and Deployment",
     short: "Training, coaching and specialised recruitment to build capable, confident and sustainable MEL functions.",
     lede: "The effectiveness of a MEL function depends on the people behind it. Ametrine helps organisations define roles, assess technical capability and identify professionals who can deliver in the realities of the assignment.",
     listTitle: "Recruitment support",
@@ -197,7 +222,9 @@ export const services = [
     ],
     noteTitle: "",
     note: "",
-    deliverables: [
+    deliverables: [],
+    secondaryTitle: "Roles we can support",
+    secondaryItems: [
       "MEL directors, managers, advisors, specialists and officers.",
       "Research managers, study coordinators and field supervisors.",
       "Data analysts, statisticians, database officers and dashboard developers.",
@@ -208,8 +235,7 @@ export const services = [
   },
   {
     slug: "proposals-programme-design",
-    number: "05",
-    title: "Concept Notes, Proposals & Programme Design",
+    title: "Concept Notes, Proposals and Programme Design",
     short: "Donor-responsive concepts, theories of change, results frameworks, budgets and implementation narratives.",
     lede: "A strong proposal connects a compelling problem, a credible response, measurable results and a realistic delivery model. Ametrine supports organisations to develop submissions that are responsive, evidence-informed and implementation-ready.",
     listTitle: "Support areas",
@@ -231,8 +257,7 @@ export const services = [
   },
   {
     slug: "training-facilitation-capacity",
-    number: "06",
-    title: "Training, Facilitation & Capacity Strengthening",
+    title: "Training, Facilitation and Capacity Strengthening",
     short: "Case studies, learning briefs, after-action reviews and knowledge products that make experience reusable.",
     lede: "Training has value when people can apply it. We combine adult-learning principles, practical exercises, real tools and follow-up support to build confidence and improve performance.",
     listTitle: "Training topics",
@@ -247,21 +272,39 @@ export const services = [
       "Power BI and data visualisation for decision-making.",
       "Evaluation design, management and use.",
       "Knowledge management, case studies and learning briefs.",
-      "Concept-note and proposal development.",
       "Research ethics, confidentiality, consent and responsible data practice.",
+      "Concept-note and proposal development.",
     ],
     noteTitle: "",
     note: "",
-    deliverables: [
+    deliverables: [],
+    secondaryTitle: "Delivery formats",
+    secondaryItems: [
       "In-person workshops and facilitated working sessions.",
       "Virtual instructor-led training.",
       "Training of Trainers.",
       "Executive and board-level briefings.",
-      "Hands-on clinics using participants' own programmes and datasets.",
+      "Hands-on clinics using participants’ own programmes and datasets.",
       "Coaching, mentoring and post-training technical assistance.",
     ],
   },
 ]
+
+export const sectors = {
+  eyebrow: "Where We Contribute",
+  title: "Sector Experience",
+  intro: "Ametrine’s methods are cross-sectoral, while its deepest experience lies in health and nutrition, education, gender and inclusion, child protection, governance, community systems and institutional strengthening.",
+  items: [
+    { title: "Health Systems, HIV and Public Health", text: "MEL frameworks, strategic information, DHIS2, quality improvement, performance monitoring, health profiles, HIV programming, maternal and child health, community systems and operational research." },
+    { title: "Nutrition and Food Security", text: "Maternal and child nutrition evaluations, bottleneck analyses, dietary and programme assessments, evidence synthesis and community nutrition programming." },
+    { title: "Education and Skills", text: "Education-sector DQA guidelines, M&E operational guidance, institutional capacity assessment, training systems and programme-performance tools." },
+    { title: "Gender, Protection and Social Norms", text: "Gender analyses, parenting and social-norms assessments, safeguarding-sensitive research, child-centred accountability, help-seeking and inclusion." },
+    { title: "Governance and Institutional Performance", text: "Organisational capacity assessment, policy and strategy alignment, accountability systems, performance frameworks and stakeholder engagement." },
+    { title: "Livelihoods, Climate and Resilience", text: "Livelihood assessments, resilience and sustainability analysis, climate-sensitive programme design and community-based research." },
+    { title: "WASH and Community Infrastructure", text: "Governance, sustainability, service quality, community engagement and institutional arrangements for WASH and related services." },
+    { title: "Civil Society and Localisation", text: "Partner capacity, reporting systems, learning, advocacy evidence, participation and locally owned MEL approaches." },
+  ],
+}
 
 export const impact = {
   eyebrow: "Results and Contribution",
@@ -270,7 +313,6 @@ export const impact = {
   note: "Impact statements below distinguish Ametrine's direct deliverables from the broader outcomes to which its work contributed.",
   proofPoints: {
     title: "Proof Points",
-    sheet: "02",
     rows: [
       { value: "18+ yrs", label: "Leadership and practice in MEL, research and strategic information." },
       { value: "500+", label: "Professionals trained and mentored." },
@@ -285,7 +327,7 @@ export const impact = {
 export const resources = {
   eyebrow: "Knowledge for Action",
   title: "Resources",
-  intro: "Publications, practice notes and answers to the questions we are asked most often — written for leaders and practitioners working in complex development settings.",
+  intro: "Our Insights series examines practical questions in monitoring, evaluation, research, learning and data use. We translate technical experience into clear guidance for leaders and practitioners working in complex development settings.",
   tabs: ["Publications & reports", "Blog / insights", "FAQs"],
   publications: [
     { title: "Evaluation reports", body: "Baseline, mid-term, outcome and final evaluation reports with findings, recommendations and management-response matrices.", status: "Released with client permission" },
@@ -334,9 +376,9 @@ export const careers = {
   title: "Careers and Consultant Network",
   intro: "We work with MEL, research, data and programme professionals who care about evidence being used. Openings, the consultant roster and internships are listed here as they open.",
   tracks: [
-    { number: "01", title: "Openings", text: "Staff roles in evaluation, data analysis and programme support are advertised here with competency-based descriptions and clear selection steps.", tag: "Check back" },
-    { number: "02", title: "Consultant Network", text: "A roster of evaluators, qualitative researchers, statisticians, dashboard developers, moderators and field supervisors engaged per assignment.", tag: "Open to expressions of interest" },
-    { number: "03", title: "Internships", text: "Supervised placements for graduates in MEL, statistics, public health and social sciences, with structured mentoring and real assignment exposure.", tag: "Seasonal" },
+    { title: "Openings", text: "Staff roles in evaluation, data analysis and programme support are advertised here with competency-based descriptions and clear selection steps.", tag: "Check back" },
+    { title: "Consultant Network", text: "A roster of evaluators, qualitative researchers, statisticians, dashboard developers, moderators and field supervisors engaged per assignment.", tag: "Open to expressions of interest" },
+    { title: "Internships", text: "Supervised placements for graduates in MEL, statistics, public health and social sciences, with structured mentoring and real assignment exposure.", tag: "Seasonal" },
   ],
   closing: {
     text: "To join the consultant network, send a CV and a short note on your specialisms to careers@ametrine.tz. We keep expressions of interest on file and contact consultants when an assignment matches.",
@@ -355,8 +397,8 @@ export const contact = {
       { label: "Careers and consultant network", value: "careers@ametrine.tz", href: "mailto:careers@ametrine.tz" },
       { label: "Telephone", value: "+255 767 366 630", href: "tel:+255767366630" },
       { label: "Location", value: "Dar es Salaam, Tanzania" },
-      { label: "Physical address", value: "Plot 16 Tanzanite Street, Goba — Dar es Salaam" },
-      { label: "Business hours", value: "Mon–Fri, 8am–5pm" },
+      { label: "Physical address", value: "Plot # 16 Tanzanite Street, Goba-Dar es Salaam" },
+      { label: "Business hours", value: "Mon-Friday: 8am to 5pm" },
     ],
   },
   form: {

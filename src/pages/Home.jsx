@@ -4,12 +4,13 @@ import SectionHeading from "../components/SectionHeading"
 import BlueprintCard from "../components/BlueprintCard"
 import DuotoneImage from "../components/DuotoneImage"
 import CtaBand from "../components/CtaBand"
+import SpecSheet from "../components/SpecSheet"
 import { useContent } from "../data/contentApi.jsx"
 import heroPhoto from "../assets/photos/hero.jpg"
 import whoWeArePhoto from "../assets/photos/impact.jpg"
 
 export default function Home() {
-  const { content: { home, audienceTags, services } } = useContent()
+  const { content: { home, audienceTags, services, images } } = useContent()
   return (
     <div>
       {/* Hero */}
@@ -37,8 +38,16 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <DuotoneImage src={heroPhoto} alt="Monitoring and evaluation professionals working with communities in Africa" ratio="aspect-[4/5]" />
+          <DuotoneImage src={images?.hero || heroPhoto} alt="Sunrise over a landscape, symbolising fresh insight and new possibilities" ratio="aspect-[4/5]" />
         </div>
+      </section>
+
+      <section className="max-w-6xl mx-auto px-6 py-10 md:py-12">
+        <SpecSheet
+          title={home.credibility.title}
+          meta={home.credibility.meta}
+          rows={home.credibility.rows}
+        />
       </section>
 
       {/* Who we are */}
@@ -50,7 +59,7 @@ export default function Home() {
             </p>
             <div className="h-px w-full bg-primary-200/60 mb-6" />
             <h2 className="text-4xl md:text-5xl font-bold leading-[0.95] text-ink">{home.whoWeAre.title}</h2>
-            <DuotoneImage src={whoWeArePhoto} alt="Team at work in the field" ratio="aspect-[4/3]" className="mt-6" />
+            <DuotoneImage src={images?.impact || whoWeArePhoto} alt="Warm evening light across a landscape, reflecting thoughtful and grounded advisory work" ratio="aspect-[4/3]" className="mt-6" />
           </div>
           <div className="md:pt-14">
             <div className="space-y-5 text-neutral-700 text-lg leading-relaxed">
@@ -72,13 +81,23 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="max-w-6xl mx-auto px-6 py-12 md:py-16">
+        <SectionHeading eyebrow={home.difference.eyebrow} title={home.difference.title} />
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {home.difference.items.map((item, index) => (
+            <BlueprintCard key={item} className="p-6">
+              <p className="text-neutral-700">{item}</p>
+            </BlueprintCard>
+          ))}
+        </div>
+      </section>
+
       {/* Featured services */}
       <section className="max-w-6xl mx-auto px-6 py-12 md:py-16">
-        <SectionHeading eyebrow="02 · Featured Services" title="What we help you do" />
+        <SectionHeading eyebrow="Featured Services" title="What we help you do" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service) => (
             <BlueprintCard key={service.slug} className="p-6">
-              <p className="font-heading text-sm font-bold text-primary-500 mb-3">{service.number}</p>
               <Link
                 to={`/services/${service.slug}`}
                 className="font-heading uppercase text-xl font-bold leading-tight hover:text-primary-700 transition-colors block"
