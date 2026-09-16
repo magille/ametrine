@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { NavLink, Link } from "react-router-dom"
 import { nav } from "../data/content"
-import logoMark from "../assets/logo-mark.png"
+import fullLogo from "../assets/logo-purple-full.jpeg"
 
 function NavItem({ to, children, onClick }) {
   return (
@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex items-center justify-between py-3 gap-4">
           <NavLink to="/" className="flex items-center shrink-0" onClick={close} aria-label="Ametrine Consulting home">
-            <img src={logoMark} alt="Ametrine Consulting" className="h-10 w-auto" />
+            <img src={fullLogo} alt="Ametrine Consulting" className="h-14 w-14 object-contain sm:h-16 sm:w-16" />
           </NavLink>
 
           <nav className="hidden lg:flex items-center gap-7">
