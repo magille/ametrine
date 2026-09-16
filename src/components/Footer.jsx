@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
-import { nav, siteMeta } from "../data/content"
+import { useContent } from "../data/contentApi.jsx"
 import logoPurple from "../assets/logo-purple-full.jpeg"
 
 export default function Footer() {
+  const { content: { nav, siteMeta } } = useContent()
   return (
     <footer className="border-t border-primary-200/60">
       <div className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">

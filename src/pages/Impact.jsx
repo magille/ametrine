@@ -1,8 +1,9 @@
 import SpecSheet from "../components/SpecSheet"
 import CtaBand from "../components/CtaBand"
-import { impact, home } from "../data/content"
+import { useContent } from "../data/contentApi.jsx"
 
 export default function Impact() {
+  const { content: { impact, home } } = useContent()
   return (
     <div>
       <section className="max-w-6xl mx-auto px-6 pt-10 pb-8 md:pt-14">

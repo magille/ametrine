@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { NavLink, Link } from "react-router-dom"
-import { nav } from "../data/content"
+import { useContent } from "../data/contentApi.jsx"
 import fullLogo from "../assets/ametrine-navbar-logo.jpeg"
 
 function NavItem({ to, children, onClick }) {
@@ -22,6 +22,7 @@ function NavItem({ to, children, onClick }) {
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
+  const { content: { nav } } = useContent()
   const close = () => setOpen(false)
 
   return (

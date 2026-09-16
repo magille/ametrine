@@ -2,10 +2,11 @@ import SectionHeading from "../components/SectionHeading"
 import BlueprintCard from "../components/BlueprintCard"
 import DuotoneImage from "../components/DuotoneImage"
 import CtaBand from "../components/CtaBand"
-import { about, home } from "../data/content"
+import { useContent } from "../data/contentApi.jsx"
 import aboutPhoto from "../assets/photos/about.jpg"
 
 export default function About() {
+  const { content: { about, home } } = useContent()
   return (
     <div>
       <section className="max-w-6xl mx-auto px-6 pt-10 pb-12 md:pt-14 md:pb-14">

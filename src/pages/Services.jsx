@@ -1,8 +1,9 @@
 import { useParams, Link, Navigate } from "react-router-dom"
 import CtaBand from "../components/CtaBand"
-import { services, home } from "../data/content"
+import { useContent } from "../data/contentApi.jsx"
 
 export default function Services() {
+  const { content: { services, home } } = useContent()
   const { slug } = useParams()
 
   if (!slug) {

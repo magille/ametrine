@@ -4,11 +4,12 @@ import SectionHeading from "../components/SectionHeading"
 import BlueprintCard from "../components/BlueprintCard"
 import DuotoneImage from "../components/DuotoneImage"
 import CtaBand from "../components/CtaBand"
-import { home, audienceTags, services } from "../data/content"
+import { useContent } from "../data/contentApi.jsx"
 import heroPhoto from "../assets/photos/hero.jpg"
 import whoWeArePhoto from "../assets/photos/impact.jpg"
 
 export default function Home() {
+  const { content: { home, audienceTags, services } } = useContent()
   return (
     <div>
       {/* Hero */}

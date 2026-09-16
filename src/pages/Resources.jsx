@@ -1,8 +1,9 @@
 import { useState } from "react"
 import BlueprintCard from "../components/BlueprintCard"
-import { resources, faq } from "../data/content"
+import { useContent } from "../data/contentApi.jsx"
 
 export default function Resources() {
+  const { content: { resources, faq } } = useContent()
   const [tab, setTab] = useState(0)
 
   return (

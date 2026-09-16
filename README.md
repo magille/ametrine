@@ -31,6 +31,8 @@ Requires Node.js 18+.
 
 Nearly all of the site's text lives in one file: `src/data/content.js`. Section by section, it holds the home page copy, about page copy, all 6 services, sectors, impact stats, insights articles, FAQ, careers tracks and contact details — edit the text there and it updates everywhere it's used.
 
+The site also exposes that content through `public/content.json`, which is loaded at runtime. This creates a CMS-ready content boundary: a future admin panel or hosted CMS can replace that JSON feed without changing the page components. After editing the source model, run `npm run content:sync` to regenerate the feed. The app falls back to the bundled content if the runtime feed is unavailable.
+
 ## Project structure
 
 ```
