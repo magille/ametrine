@@ -27,7 +27,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 bg-paper/95 backdrop-blur border-b border-primary-200/60">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-[90rem] mx-auto px-6">
         <div className="flex items-center justify-between py-3 gap-4">
           <NavLink to="/" className="flex items-center shrink-0" onClick={close} aria-label="Ametrine Consulting home">
             <img

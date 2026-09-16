@@ -6,7 +6,7 @@ export default function Careers() {
   const { content: { careers } } = useContent()
   return (
     <div>
-      <section className="max-w-6xl mx-auto px-6 pt-16 pb-8">
+      <section className="max-w-[90rem] mx-auto px-6 pt-16 pb-8">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           {careers.eyebrow}
         </p>
@@ -15,7 +15,7 @@ export default function Careers() {
         <p className="text-lg text-neutral-600 max-w-2xl">{careers.intro}</p>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 pb-16 space-y-6">
+      <section className="max-w-[90rem] mx-auto px-6 pb-16 space-y-6">
         {careers.tracks.map((track) => (
           <BlueprintCard key={track.title}>
             <h2 className="text-2xl md:text-3xl font-bold uppercase mb-3">{track.title}</h2>
@@ -27,7 +27,7 @@ export default function Careers() {
         ))}
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 pb-20">
+      <section className="max-w-[90rem] mx-auto px-6 pb-20">
         <BlueprintCard>
           <p className="text-lg text-neutral-700 max-w-2xl mb-6">
             {careers.closing.text.split("careers@ametrine.tz")[0]}

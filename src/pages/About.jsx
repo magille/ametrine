@@ -9,7 +9,7 @@ export default function About() {
   const { content: { about, home, images } } = useContent()
   return (
     <div>
-      <section className="max-w-6xl mx-auto px-6 pt-10 pb-12 md:pt-14 md:pb-14">
+      <section className="max-w-[90rem] mx-auto px-6 pt-10 pb-12 md:pt-14 md:pb-14">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           {about.eyebrow}
         </p>
@@ -24,7 +24,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-12 md:py-16 grid md:grid-cols-2 gap-6">
+      <section className="max-w-[90rem] mx-auto px-6 py-12 md:py-16 grid md:grid-cols-2 gap-6">
         <BlueprintCard className="p-7 md:p-8">
           <p className="font-heading uppercase text-sm font-bold text-primary-500 mb-3">Vision</p>
           <p className="text-xl text-ink">{about.vision}</p>
@@ -35,7 +35,7 @@ export default function About() {
         </BlueprintCard>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-12 md:py-16">
+      <section className="max-w-[90rem] mx-auto px-6 py-12 md:py-16">
         <SectionHeading eyebrow="How We Work" title="A disciplined path from evidence to action" />
         <div className="grid md:grid-cols-2 gap-4">
           {about.approach.map((step, index) => (
@@ -46,7 +46,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-12 md:py-16">
+      <section className="max-w-[90rem] mx-auto px-6 py-12 md:py-16">
         <SectionHeading eyebrow="Leadership Snapshot" title="Senior expertise, grounded in practice" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {about.leadershipSnapshot.map((item) => <BlueprintCard key={item} className="p-6"><p className="text-neutral-700">{item}</p></BlueprintCard>)}
@@ -54,7 +54,7 @@ export default function About() {
       </section>
 
       {/* Values */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-[90rem] mx-auto px-6 py-16">
         <SectionHeading eyebrow="Our Values" title="What guides every assignment" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
           {about.values.map((value) => (
@@ -71,7 +71,7 @@ export default function About() {
       </section>
 
       {/* Why choose Ametrine */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-[90rem] mx-auto px-6 py-16">
         <SectionHeading eyebrow="Why Choose Ametrine Consulting?" title="What sets us apart" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {about.whyUs.map((w) => (
