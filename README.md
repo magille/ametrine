@@ -39,6 +39,8 @@ The `/admin` page provides a Cloudinary-backed image manager for the Home hero, 
 
 The admin token must never be added to a `VITE_*` variable or committed to the repository. The cPanel deployment copies the `/api` endpoint alongside the built site. On cPanel, create `/home/CPANEL_USERNAME/.env` (one directory above `public_html`) with `AMETRINE_ADMIN_TOKEN=your-long-random-token`; the PHP endpoint loads that file automatically. Set the file permissions to `600` if available.
 
+For cPanel Git deployment, `.cpanel.yml` runs `npm ci` and `npm run build` before copying `dist/` to `public_html`. This is required because the Vite output contains hashed assets and the runtime `content.json`; do not deploy a stale checked-in `dist/` folder.
+
 ## Project structure
 
 ```
