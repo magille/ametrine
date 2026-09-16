@@ -19,20 +19,21 @@ function LeaderAvatar() {
 export default function About() {
   return (
     <div>
-      <section className="max-w-6xl mx-auto px-6 pt-16 pb-16">
+      <section className="max-w-6xl mx-auto px-6 pt-10 pb-12 md:pt-14 md:pb-14">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           {about.eyebrow}
         </p>
         <div className="h-px w-full bg-primary-200/60 mb-8" />
-        <h1 className="text-5xl md:text-6xl font-bold leading-[0.95] mb-10">{about.story.title}</h1>
-        <div className="grid md:grid-cols-2 gap-10 items-start">
-          <p className="text-lg text-neutral-700">{about.story.paragraph}</p>
-          <DuotoneImage src={aboutPhoto} alt="Infrastructure and systems in Tanzania" ratio="aspect-[3/4]" className="max-w-sm" />
+        <p className="font-heading uppercase tracking-[0.24em] text-xs text-neutral-500 mb-5">MEL / Research / Quality assurance</p>
+        <h1 className="text-5xl md:text-7xl font-bold leading-[0.9] mb-8">{about.story.title}</h1>
+        <div className="grid md:grid-cols-[0.9fr_1.1fr] gap-8 md:gap-14 items-start">
+          <p className="text-lg text-neutral-700 leading-relaxed md:pt-3">{about.story.paragraph}</p>
+          <DuotoneImage src={aboutPhoto} alt="Ametrine consultants supporting monitoring, evaluation and learning in Africa" ratio="aspect-[3/4]" className="max-w-sm" />
         </div>
       </section>
 
       {/* Leadership team */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-6xl mx-auto px-6 py-12 md:py-16">
         <SectionHeading eyebrow="Our People" title="Leadership team" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {about.leaders.map((l) => (
@@ -53,12 +54,12 @@ export default function About() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-8">
-        <BlueprintCard>
+      <section className="max-w-6xl mx-auto px-6 py-12 md:py-16 grid md:grid-cols-2 gap-6">
+        <BlueprintCard className="p-7 md:p-8">
           <p className="font-heading uppercase text-sm font-bold text-primary-500 mb-3">Vision</p>
           <p className="text-xl text-ink">{about.vision}</p>
         </BlueprintCard>
-        <BlueprintCard>
+        <BlueprintCard className="p-7 md:p-8">
           <p className="font-heading uppercase text-sm font-bold text-primary-500 mb-3">Mission</p>
           <p className="text-xl text-ink">{about.mission}</p>
         </BlueprintCard>

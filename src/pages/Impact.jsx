@@ -5,17 +5,20 @@ import { impact, home } from "../data/content"
 export default function Impact() {
   return (
     <div>
-      <section className="max-w-6xl mx-auto px-6 pt-16 pb-8">
+      <section className="max-w-6xl mx-auto px-6 pt-10 pb-8 md:pt-14">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           {impact.eyebrow}
         </p>
         <div className="h-px w-full bg-primary-200/60 mb-8" />
-        <h1 className="text-5xl md:text-6xl font-bold leading-[0.95] mb-6">{impact.title}</h1>
-        <p className="text-lg text-neutral-700 max-w-2xl mb-3">{impact.narrative}</p>
-        <p className="text-neutral-500 max-w-2xl">{impact.note}</p>
+        <p className="font-heading uppercase tracking-[0.24em] text-xs text-neutral-500 mb-5">MEL / Contribution / Learning</p>
+        <h1 className="text-5xl md:text-7xl font-bold leading-[0.9] mb-7">{impact.title}</h1>
+        <div className="grid md:grid-cols-[1.25fr_0.75fr] gap-8 md:gap-14 items-start">
+          <p className="text-lg text-neutral-700 max-w-2xl leading-relaxed">{impact.narrative}</p>
+          <p className="border-l-2 border-primary-400 pl-5 text-neutral-500 leading-relaxed">{impact.note}</p>
+        </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-6xl mx-auto px-6 py-12 md:py-16">
         <SpecSheet
           title={impact.proofPoints.title}
           sheet={impact.proofPoints.sheet}
