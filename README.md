@@ -37,7 +37,7 @@ The site also exposes that content through `public/content.json`, which is loade
 
 The `/admin` page provides a Cloudinary-backed image manager for the Home hero, About page and Impact page images. The current Cloudinary configuration uses cloud name `bu4btdoe` and the unsigned upload preset `ametrine-images`; create that preset in Cloudinary before deploying. Set `AMETRINE_ADMIN_TOKEN` as a server environment variable for the PHP endpoint. After deployment, open `/admin`, upload an image for a slot, enter the server token, and publish. The site stores the resulting Cloudinary URLs in `content.json` and loads them dynamically.
 
-The admin token must never be added to a `VITE_*` variable or committed to the repository. The cPanel deployment copies the `/api` endpoint alongside the built site.
+The admin token must never be added to a `VITE_*` variable or committed to the repository. The cPanel deployment copies the `/api` endpoint alongside the built site. On cPanel, create `/home/CPANEL_USERNAME/.env` (one directory above `public_html`) with `AMETRINE_ADMIN_TOKEN=your-long-random-token`; the PHP endpoint loads that file automatically. Set the file permissions to `600` if available.
 
 ## Project structure
 
