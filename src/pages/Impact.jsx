@@ -5,7 +5,7 @@ import { useContent } from "../data/contentApi.jsx"
 import impactPhoto from "../assets/photos/impact.jpg"
 
 export default function Impact() {
-  const { content: { impact, home } } = useContent()
+  const { content: { impact, home, images } } = useContent()
   return (
     <div>
       <section className="max-w-6xl mx-auto px-6 pt-10 pb-8 md:pt-14">
@@ -20,7 +20,7 @@ export default function Impact() {
           <p className="border-l-2 border-primary-400 pl-5 text-neutral-500 leading-relaxed">{impact.note}</p>
         </div>
         <DuotoneImage
-          src={impactPhoto}
+          src={images?.impact || impactPhoto}
           alt="Sunset light over a landscape, representing the lasting contribution of evidence and learning"
           ratio="aspect-[16/6]"
           className="mt-10"

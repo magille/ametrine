@@ -271,6 +271,11 @@
       ]
     }
   },
+  "images": {
+    "hero": "",
+    "about": "",
+    "impact": ""
+  },
   "impact": {
     "eyebrow": "Results and Contribution",
     "title": "Our Impact",

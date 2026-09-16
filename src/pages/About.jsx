@@ -6,7 +6,7 @@ import { useContent } from "../data/contentApi.jsx"
 import aboutPhoto from "../assets/photos/about.jpg"
 
 export default function About() {
-  const { content: { about, home } } = useContent()
+  const { content: { about, home, images } } = useContent()
   return (
     <div>
       <section className="max-w-6xl mx-auto px-6 pt-10 pb-12 md:pt-14 md:pb-14">
@@ -20,7 +20,7 @@ export default function About() {
           <div className="space-y-5 text-lg text-neutral-700 leading-relaxed md:pt-3">
             {about.story.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
           </div>
-          <DuotoneImage src={aboutPhoto} alt="Golden-hour landscape reflecting Ametrine's grounded approach to evidence and learning" ratio="aspect-[3/4]" className="max-w-sm" />
+          <DuotoneImage src={images?.about || aboutPhoto} alt="Golden-hour landscape reflecting Ametrine's grounded approach to evidence and learning" ratio="aspect-[3/4]" className="max-w-sm" />
         </div>
       </section>
 

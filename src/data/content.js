@@ -14,6 +14,12 @@ export const nav = {
   ],
 }
 
+export const images = {
+  hero: "",
+  about: "",
+  impact: "",
+}
+
 export const audienceTags = [
   "NGOs and foundations",
   "Bilateral and multilateral partners",

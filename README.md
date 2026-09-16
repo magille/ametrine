@@ -33,6 +33,12 @@ Nearly all of the site's text lives in one file: `src/data/content.js`. Section 
 
 The site also exposes that content through `public/content.json`, which is loaded at runtime. This creates a CMS-ready content boundary: a future admin panel or hosted CMS can replace that JSON feed without changing the page components. After editing the source model, run `npm run content:sync` to regenerate the feed. The app falls back to the bundled content if the runtime feed is unavailable.
 
+### Managing images without code
+
+The `/admin` page provides a Cloudinary-backed image manager for the Home hero, About page and Impact page images. Configure `VITE_CLOUDINARY_CLOUD_NAME` and `VITE_CLOUDINARY_UPLOAD_PRESET` at build time, create an unsigned Cloudinary upload preset, and set `AMETRINE_ADMIN_TOKEN` as a server environment variable for the PHP endpoint. After deployment, open `/admin`, upload an image for a slot, enter the server token, and publish. The site stores the resulting Cloudinary URLs in `content.json` and loads them dynamically.
+
+The admin token must never be added to a `VITE_*` variable or committed to the repository. The cPanel deployment copies the `/api` endpoint alongside the built site.
+
 ## Project structure
 
 ```
