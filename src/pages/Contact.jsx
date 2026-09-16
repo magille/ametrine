@@ -17,22 +17,86 @@ const initialForm = {
   consent: false,
 }
 
+const contactEndpoint = import.meta.env.VITE_CONTACT_FORM_ENDPOINT
+
 export default function Contact() {
   const [form, setForm] = useState(initialForm)
   const [submitted, setSubmitted] = useState(false)
+  const [error, setError] = useState("")
+  const [isSubmitting, setIsSubmitting] = useState(false)
 
   const update = (field) => (e) => {
     const value = e.target.type === "checkbox" ? e.target.checked : e.target.value
     setForm((f) => ({ ...f, [field]: value }))
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    // NOTE: This form is not yet wired to a backend or email service.
-    // Connect it to a provider such as Formspree, EmailJS, or your own
-    // API endpoint before going live — see the project README.
-    console.log("Inquiry submitted", form)
-    setSubmitted(true)
+    setError("")
+    setIsSubmitting(true)
+
+    const requiredFields = [
+      ["fullName", "Full name"],
+      ["organisation", "Organisation and job title"],
+      ["email", "Email address"],
+    ]
+
+    const missingField = requiredFields.find(([field]) => !String(form[field]).trim())
+    if (missingField) {
+      setError(`${missingField[1]} is required.`)
+      setIsSubmitting(false)
+      return
+    }
+
+    if (!form.consent) {
+      setError("Please confirm your consent before submitting.")
+      setIsSubmitting(false)
+      return
+    }
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
+      setError("Please enter a valid email address.")
+      setIsSubmitting(false)
+      return
+    }
+
+    const payload = {
+      fullName: form.fullName.trim(),
+      organisation: form.organisation.trim(),
+      email: form.email.trim(),
+      phone: form.phone.trim(),
+      supportType: form.supportType,
+      location: form.location.trim(),
+      startDate: form.startDate,
+      deadline: form.deadline,
+      description: form.description.trim(),
+      file: form.file,
+      consent: form.consent,
+    }
+
+    try {
+      if (contactEndpoint) {
+        const response = await fetch(contactEndpoint, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify(payload),
+        })
+
+        if (!response.ok) {
+          throw new Error(`Submission failed with status ${response.status}`)
+        }
+      }
+
+      setSubmitted(true)
+    } catch (submissionError) {
+      console.error("Inquiry submission failed", submissionError)
+      setError("We couldn’t send your inquiry right now. Please email info@ametrine.tz directly.")
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -177,8 +241,10 @@ export default function Contact() {
                 </span>
               </label>
 
-              <Button type="submit" variant="primary" className="w-full sm:w-auto">
-                Submit inquiry
+              {error && <p className="text-sm text-red-600 font-medium">{error}</p>}
+
+              <Button type="submit" variant="primary" className="w-full sm:w-auto" disabled={isSubmitting}>
+                {isSubmitting ? "Sending..." : "Submit inquiry"}
               </Button>
             </form>
           )}
