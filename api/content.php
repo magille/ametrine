@@ -3,30 +3,6 @@ declare(strict_types=1);
 
 header('Content-Type: application/json');
 
-function loadEnvFile(string $path): void
-{
-    if (!is_readable($path)) {
-        return;
-    }
-
-    foreach (file($path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) as $line) {
-        $line = trim($line);
-        if ($line === '' || substr($line, 0, 1) === '#' || strpos($line, '=') === false) {
-            continue;
-        }
-
-        [$name, $value] = explode('=', $line, 2);
-        $name = trim($name);
-        $value = trim($value);
-        if ($name !== '' && getenv($name) === false) {
-            putenv("{$name}={$value}");
-        }
-    }
-}
-
-// On cPanel, keep .env one directory above public_html so it cannot be downloaded.
-loadEnvFile(dirname(__DIR__, 2) . '/.env');
-
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(405);
     echo json_encode(['error' => 'Method not allowed']);
