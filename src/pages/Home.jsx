@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="max-w-6xl mx-auto px-6 pt-10 pb-10 md:pt-14 md:pb-12">
+      <section className="max-w-[90rem] mx-auto px-6 pt-10 pb-10 md:pt-14 md:pb-12">
         <div className="grid md:grid-cols-[1.05fr_0.95fr] gap-8 md:gap-16 items-center">
           <div>
             <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
@@ -42,7 +42,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-10 md:py-12">
+      <section className="max-w-[90rem] mx-auto px-6 py-10 md:py-12">
         <SpecSheet
           title={home.credibility.title}
           meta={home.credibility.meta}
@@ -51,7 +51,7 @@ export default function Home() {
       </section>
 
       {/* Who we are */}
-      <section className="max-w-6xl mx-auto px-6 py-10 md:py-12">
+      <section className="max-w-[90rem] mx-auto px-6 py-10 md:py-12">
         <div className="grid md:grid-cols-2 gap-8 md:gap-14">
           <div>
             <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-12 md:py-16">
+      <section className="max-w-[90rem] mx-auto px-6 py-12 md:py-16">
         <SectionHeading eyebrow={home.difference.eyebrow} title={home.difference.title} />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {home.difference.items.map((item, index) => (
@@ -93,7 +93,7 @@ export default function Home() {
       </section>
 
       {/* Featured services */}
-      <section className="max-w-6xl mx-auto px-6 py-12 md:py-16">
+      <section className="max-w-[90rem] mx-auto px-6 py-12 md:py-16">
         <SectionHeading eyebrow="Featured Services" title="What we help you do" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service) => (

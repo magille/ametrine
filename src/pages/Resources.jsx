@@ -8,7 +8,7 @@ export default function Resources() {
 
   return (
     <div>
-      <section className="max-w-6xl mx-auto px-6 pt-16 pb-8">
+      <section className="max-w-[90rem] mx-auto px-6 pt-16 pb-8">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           {resources.eyebrow}
         </p>
@@ -33,7 +33,7 @@ export default function Resources() {
       </section>
 
       {tab === 0 && (
-        <section className="max-w-6xl mx-auto px-6 pb-16">
+        <section className="max-w-[90rem] mx-auto px-6 pb-16">
           <h2 className="text-3xl font-bold uppercase mb-8">Publications &amp; reports</h2>
           <div className="grid sm:grid-cols-2 gap-6 mb-8">
             {resources.publications.map((p) => (
@@ -57,7 +57,7 @@ export default function Resources() {
       )}
 
       {tab === 1 && (
-        <section className="max-w-6xl mx-auto px-6 pb-16">
+        <section className="max-w-[90rem] mx-auto px-6 pb-16">
           <h2 className="text-3xl font-bold uppercase mb-2">Blog / insights</h2>
           <p className="text-neutral-600 max-w-2xl mb-8">
             Our Insights series examines practical questions in monitoring, evaluation, research, learning and data
@@ -79,7 +79,7 @@ export default function Resources() {
       )}
 
       {tab === 2 && (
-        <section className="max-w-6xl mx-auto px-6 pb-16">
+        <section className="max-w-[90rem] mx-auto px-6 pb-16">
           <h2 className="text-3xl font-bold uppercase mb-8">Frequently asked questions</h2>
           <div className="border-t border-primary-200/50">
             {faq.map((item) => (
@@ -100,7 +100,7 @@ export default function Resources() {
       )}
 
       <section className="bg-primary-900 text-white">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[90rem] mx-auto px-6 py-16">
           <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-200 mb-4">
             {resources.closingCta.title}
           </p>

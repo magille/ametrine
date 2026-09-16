@@ -8,7 +8,7 @@ export default function Impact() {
   const { content: { impact, home, images } } = useContent()
   return (
     <div>
-      <section className="max-w-6xl mx-auto px-6 pt-10 pb-8 md:pt-14">
+      <section className="max-w-[90rem] mx-auto px-6 pt-10 pb-8 md:pt-14">
         <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
           {impact.eyebrow}
         </p>
@@ -27,7 +27,7 @@ export default function Impact() {
         />
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-12 md:py-16">
+      <section className="max-w-[90rem] mx-auto px-6 py-12 md:py-16">
         <SpecSheet
           title={impact.proofPoints.title}
           rows={impact.proofPoints.rows}
