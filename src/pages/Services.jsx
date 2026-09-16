@@ -19,7 +19,7 @@ export default function Services() {
           What Ametrine Offers
         </p>
         <div className="h-px w-full bg-primary-200/60 mb-8" />
-        <h1 className="text-5xl md:text-6xl font-bold leading-[0.95] mb-6">Six services, one results cycle</h1>
+        <h1 className="text-5xl md:text-6xl font-bold leading-[0.95] mb-6">Integrated services, one results cycle</h1>
         <p className="text-lg text-neutral-600 max-w-2xl">
           Select a service to read what it covers, how we deliver it and what you receive.
         </p>
@@ -37,7 +37,6 @@ export default function Services() {
                   isActive ? "bg-primary-50 border-l-4 border-l-primary pl-3" : "hover:bg-primary-50/60"
                 }`}
               >
-                <span className="font-heading font-bold text-primary-500 text-sm">{service.number}</span>
                 <span className="font-heading uppercase font-bold text-lg leading-tight">{service.title}</span>
               </Link>
             )
@@ -45,7 +44,6 @@ export default function Services() {
         </nav>
 
         <article>
-          <p className="font-heading font-bold text-primary-500 mb-2">Service {active.number}</p>
           <h2 className="text-3xl md:text-4xl font-bold uppercase mb-6">{active.title}</h2>
           <p className="text-lg text-neutral-700 mb-10 max-w-2xl">{active.lede}</p>
 
@@ -83,12 +81,9 @@ export default function Services() {
                   <i className="corner br text-primary-300" />
                   <table className="w-full text-sm">
                     <tbody>
-                      {active.deliverables.map((d, i) => (
-                        <tr key={i} className="border-b border-primary-200/40 last:border-0">
-                          <td className="w-16 py-3 pl-5 font-heading font-bold text-primary-600 align-top">
-                            {String(i + 1).padStart(2, "0")}
-                          </td>
-                          <td className="py-3 pr-5 text-neutral-700">{d}</td>
+                      {active.deliverables.map((d) => (
+                        <tr key={d} className="border-b border-primary-200/40 last:border-0">
+                          <td className="py-3 px-5 text-neutral-700">{d}</td>
                         </tr>
                       ))}
                     </tbody>

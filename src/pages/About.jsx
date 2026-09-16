@@ -40,7 +40,6 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-4">
           {about.approach.map((step, index) => (
             <BlueprintCard key={step} className="p-6">
-              <p className="font-heading text-sm font-bold text-primary-500 mb-3">{String(index + 1).padStart(2, "0")}</p>
               <p className="text-neutral-700">{step}</p>
             </BlueprintCard>
           ))}
@@ -76,8 +75,7 @@ export default function About() {
         <SectionHeading eyebrow="Why Choose Ametrine Consulting?" title="What sets us apart" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {about.whyUs.map((w) => (
-            <BlueprintCard key={w.number} className="p-6">
-              <p className="font-heading text-sm font-bold text-primary-500 mb-3">{w.number}</p>
+            <BlueprintCard key={w.title} className="p-6">
               <h3 className="text-xl font-bold uppercase font-heading mb-2">{w.title}</h3>
               <p className="text-neutral-600">{w.text}</p>
             </BlueprintCard>

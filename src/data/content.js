@@ -35,7 +35,6 @@ export const home = {
   credibility: {
     title: "Credibility — Record of Practice",
     meta: "Dar es Salaam, Tanzania",
-    sheet: "01",
     rows: [
       { value: "18+ yrs", label: "Senior MEL and research leadership." },
       { value: "500+", label: "Professionals trained in MEL, data, quality improvement and related disciplines." },
@@ -44,7 +43,7 @@ export const home = {
     ],
   },
   whoWeAre: {
-    eyebrow: "01 · Who we are",
+    eyebrow: "Who we are",
     title: "Evidence, learning and performance advisory",
     body: [
       "Ametrine Consulting is an evidence, learning and performance advisory firm based in Dar es Salaam, Tanzania. We work across the full results cycle—from theories of change and indicator frameworks to data collection, evaluation, visualisation, learning and adaptive management. Our consultants combine deep contextual understanding with internationally recognised approaches, helping clients produce evidence they can trust and use.",
@@ -96,10 +95,10 @@ export const about = {
     { title: "Impact", text: "We focus on practical change—not activity for its own sake—and on strengthening the systems that sustain results." },
   ],
   whyUs: [
-    { number: "01", title: "Expertise & experience", text: "Over 18 years in MEL and quality assurance work." },
-    { number: "02", title: "Data-driven approach", text: "Enhancing decision-making with reliable evidence." },
-    { number: "03", title: "Comprehensive support", text: "From assessments to learning and reporting." },
-    { number: "04", title: "Commitment to excellence", text: "We go beyond compliance — delivering actionable insights." },
+    { title: "Expertise & experience", text: "Over 18 years in MEL and quality assurance work." },
+    { title: "Data-driven approach", text: "Enhancing decision-making with reliable evidence." },
+    { title: "Comprehensive support", text: "From assessments to learning and reporting." },
+    { title: "Commitment to excellence", text: "We go beyond compliance — delivering actionable insights." },
   ],
   approach: [
     "Listen and frame the decision. We clarify the purpose, users, questions, context and practical constraints before selecting methods.",
@@ -122,7 +121,6 @@ export const about = {
 export const services = [
   {
     slug: "research-evaluation-learning",
-    number: "01",
     title: "Research, Evaluation & Learning",
     short: "Independent studies and evaluations that combine methodological rigour, ethical practice and useful recommendations.",
     lede: "Independent evidence must be credible enough to withstand scrutiny and practical enough to guide action. Ametrine designs and delivers mixed-methods studies that answer important programme and policy questions.",
@@ -155,7 +153,6 @@ export const services = [
   },
   {
     slug: "mel-systems-development",
-    number: "02",
     title: "MEL Systems Development and Strengthening",
     short: "Practical frameworks, plans, indicators, tools, SOPs and governance arrangements that teams can implement.",
     lede: "A strong MEL system aligns strategy, people, processes, tools and technology. We help organisations build systems that are proportionate, integrated and usable — not collections of templates that sit on a shelf.",
@@ -178,7 +175,6 @@ export const services = [
   },
   {
     slug: "data-management-quality-visualisation",
-    number: "03",
     title: "Data Management, Quality and Visualisation",
     short: "Stronger data flows, quality controls, analysis, dashboards and visual products for faster decision-making.",
     lede: "Reliable decisions require reliable data. Ametrine helps clients improve the entire data pathway — from tool design and collection through cleaning, analysis, visualisation, reporting and secure retention.",
@@ -205,7 +201,6 @@ export const services = [
   },
   {
     slug: "mel-talent-recruitment",
-    number: "04",
     title: "MEL Talent Recruitment and Deployment",
     short: "Training, coaching and specialised recruitment to build capable, confident and sustainable MEL functions.",
     lede: "The effectiveness of a MEL function depends on the people behind it. Ametrine helps organisations define roles, assess technical capability and identify professionals who can deliver in the realities of the assignment.",
@@ -234,7 +229,6 @@ export const services = [
   },
   {
     slug: "proposals-programme-design",
-    number: "05",
     title: "Concept Notes, Proposals and Programme Design",
     short: "Donor-responsive concepts, theories of change, results frameworks, budgets and implementation narratives.",
     lede: "A strong proposal connects a compelling problem, a credible response, measurable results and a realistic delivery model. Ametrine supports organisations to develop submissions that are responsive, evidence-informed and implementation-ready.",
@@ -257,7 +251,6 @@ export const services = [
   },
   {
     slug: "training-facilitation-capacity",
-    number: "06",
     title: "Training, Facilitation and Capacity Strengthening",
     short: "Case studies, learning briefs, after-action reviews and knowledge products that make experience reusable.",
     lede: "Training has value when people can apply it. We combine adult-learning principles, practical exercises, real tools and follow-up support to build confidence and improve performance.",
@@ -314,7 +307,6 @@ export const impact = {
   note: "Impact statements below distinguish Ametrine's direct deliverables from the broader outcomes to which its work contributed.",
   proofPoints: {
     title: "Proof Points",
-    sheet: "02",
     rows: [
       { value: "18+ yrs", label: "Leadership and practice in MEL, research and strategic information." },
       { value: "500+", label: "Professionals trained and mentored." },
@@ -378,9 +370,9 @@ export const careers = {
   title: "Careers and Consultant Network",
   intro: "We work with MEL, research, data and programme professionals who care about evidence being used. Openings, the consultant roster and internships are listed here as they open.",
   tracks: [
-    { number: "01", title: "Openings", text: "Staff roles in evaluation, data analysis and programme support are advertised here with competency-based descriptions and clear selection steps.", tag: "Check back" },
-    { number: "02", title: "Consultant Network", text: "A roster of evaluators, qualitative researchers, statisticians, dashboard developers, moderators and field supervisors engaged per assignment.", tag: "Open to expressions of interest" },
-    { number: "03", title: "Internships", text: "Supervised placements for graduates in MEL, statistics, public health and social sciences, with structured mentoring and real assignment exposure.", tag: "Seasonal" },
+    { title: "Openings", text: "Staff roles in evaluation, data analysis and programme support are advertised here with competency-based descriptions and clear selection steps.", tag: "Check back" },
+    { title: "Consultant Network", text: "A roster of evaluators, qualitative researchers, statisticians, dashboard developers, moderators and field supervisors engaged per assignment.", tag: "Open to expressions of interest" },
+    { title: "Internships", text: "Supervised placements for graduates in MEL, statistics, public health and social sciences, with structured mentoring and real assignment exposure.", tag: "Seasonal" },
   ],
   closing: {
     text: "To join the consultant network, send a CV and a short note on your specialisms to careers@ametrine.tz. We keep expressions of interest on file and contact consultants when an assignment matches.",

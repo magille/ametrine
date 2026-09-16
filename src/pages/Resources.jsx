@@ -64,9 +64,8 @@ export default function Resources() {
             use.
           </p>
           <div className="border-t border-primary-200/50">
-            {resources.articles.map((title, i) => (
-              <div key={title} className="grid sm:grid-cols-[60px_1fr] gap-4 py-6 border-b border-primary-200/50">
-                <span className="font-heading font-bold text-primary-500">{String(i + 1).padStart(2, "0")}</span>
+            {resources.articles.map((title) => (
+              <div key={title} className="py-6 border-b border-primary-200/50">
                 <div>
                   <h3 className="text-xl md:text-2xl font-bold mb-2">{title}</h3>
                   <p className="font-heading uppercase text-xs tracking-widest text-neutral-400">
@@ -83,20 +82,17 @@ export default function Resources() {
         <section className="max-w-6xl mx-auto px-6 pb-16">
           <h2 className="text-3xl font-bold uppercase mb-8">Frequently asked questions</h2>
           <div className="border-t border-primary-200/50">
-            {faq.map((item, i) => (
+            {faq.map((item) => (
               <details key={item.q} className="group border-b border-primary-200/50 py-5">
                 <summary className="flex justify-between items-start gap-4 cursor-pointer list-none">
                   <span className="flex gap-4">
-                    <span className="font-heading font-bold text-primary-500 shrink-0">
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
                     <span className="text-xl font-bold">{item.q}</span>
                   </span>
                   <span className="font-heading text-2xl text-primary-500 shrink-0 group-open:rotate-45 transition-transform">
                     +
                   </span>
                 </summary>
-                <p className="text-neutral-600 mt-4 sm:ml-[52px] max-w-2xl">{item.a}</p>
+                <p className="text-neutral-600 mt-4 max-w-2xl">{item.a}</p>
               </details>
             ))}
           </div>

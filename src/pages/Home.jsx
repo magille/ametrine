@@ -46,7 +46,6 @@ export default function Home() {
         <SpecSheet
           title={home.credibility.title}
           meta={home.credibility.meta}
-          sheet={home.credibility.sheet}
           rows={home.credibility.rows}
         />
       </section>
@@ -87,7 +86,6 @@ export default function Home() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {home.difference.items.map((item, index) => (
             <BlueprintCard key={item} className="p-6">
-              <p className="font-heading text-sm font-bold text-primary-500 mb-3">{String(index + 1).padStart(2, "0")}</p>
               <p className="text-neutral-700">{item}</p>
             </BlueprintCard>
           ))}
@@ -96,11 +94,10 @@ export default function Home() {
 
       {/* Featured services */}
       <section className="max-w-6xl mx-auto px-6 py-12 md:py-16">
-        <SectionHeading eyebrow="02 · Featured Services" title="What we help you do" />
+        <SectionHeading eyebrow="Featured Services" title="What we help you do" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service) => (
             <BlueprintCard key={service.slug} className="p-6">
-              <p className="font-heading text-sm font-bold text-primary-500 mb-3">{service.number}</p>
               <Link
                 to={`/services/${service.slug}`}
                 className="font-heading uppercase text-xl font-bold leading-tight hover:text-primary-700 transition-colors block"

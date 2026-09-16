@@ -18,9 +18,8 @@ export default function Sectors() {
       <section className="max-w-6xl mx-auto px-6 py-12 md:py-16">
         <SectionHeading eyebrow="Cross-sector methods, local context" title="Where our practice meets real-world decisions" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {sectors.items.map((sector, index) => (
+          {sectors.items.map((sector) => (
             <BlueprintCard key={sector.title} className="p-6">
-              <p className="font-heading text-sm font-bold text-primary-500 mb-3">{String(index + 1).padStart(2, "0")}</p>
               <h2 className="text-xl font-bold uppercase mb-3">{sector.title}</h2>
               <p className="text-neutral-600">{sector.text}</p>
             </BlueprintCard>

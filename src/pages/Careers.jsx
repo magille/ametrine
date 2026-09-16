@@ -17,8 +17,7 @@ export default function Careers() {
 
       <section className="max-w-6xl mx-auto px-6 pb-16 space-y-6">
         {careers.tracks.map((track) => (
-          <BlueprintCard key={track.number}>
-            <p className="font-heading font-bold text-primary-500 mb-2">{track.number}</p>
+          <BlueprintCard key={track.title}>
             <h2 className="text-2xl md:text-3xl font-bold uppercase mb-3">{track.title}</h2>
             <p className="text-neutral-600 max-w-2xl mb-5">{track.text}</p>
             <span className="inline-block bg-primary-50 text-primary-700 px-4 py-2 font-heading uppercase text-sm font-semibold">
