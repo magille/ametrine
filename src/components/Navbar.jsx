@@ -28,11 +28,8 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-paper/95 backdrop-blur border-b border-primary-200/60">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex items-center justify-between py-3 gap-4">
-          <NavLink to="/" className="flex items-center gap-2.5 shrink-0" onClick={close}>
-            <img src={logoMark} alt="" className="h-9 w-auto" />
-            <span className="font-heading uppercase font-semibold text-2xl tracking-wide leading-none text-ink">
-              Ametrine<span className="text-teal">.</span>
-            </span>
+          <NavLink to="/" className="flex items-center shrink-0" onClick={close} aria-label="Ametrine Consulting home">
+            <img src={logoMark} alt="Ametrine Consulting" className="h-10 w-auto" />
           </NavLink>
 
           <nav className="hidden lg:flex items-center gap-7">
