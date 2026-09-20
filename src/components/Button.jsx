@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"
 
 const variants = {
-  primary: "bg-primary text-white border border-primary hover:bg-primary-700 hover:border-primary-700",
-  secondary: "bg-transparent text-ink border border-ink hover:bg-ink hover:text-white",
-  ghostDark: "bg-transparent text-white border border-white/70 hover:bg-white hover:text-primary-900",
-  onDark: "bg-primary-200 text-primary-900 border border-primary-200 hover:bg-white",
+  primary: "bg-brandBlue text-white border border-brandBlue hover:bg-brandBlue-700 hover:border-brandBlue-700",
+  secondary: "bg-transparent text-ink border border-ink hover:bg-brandBlue hover:text-white hover:border-brandBlue",
+  ghostDark: "bg-transparent text-white border border-white/70 hover:bg-brandBlue hover:text-white hover:border-brandBlue",
+  onDark: "bg-brandBlue-100 text-brandBlue-900 border border-brandBlue-100 hover:bg-white",
 }
 
 export default function Button({ to, href, onClick, variant = "primary", children, type = "button", className = "", disabled = false }) {

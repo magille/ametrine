@@ -6,8 +6,16 @@
   border-radius: 0 !important;
 }
 
+:root {
+  --brand-blue: #2C6BEF;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+.brand-blue {
+  color: var(--brand-blue);
 }
 
 body {
@@ -62,6 +70,11 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .blueprint > .corner.tr { top: -6px; right: -6px; }
 .blueprint > .corner.bl { bottom: -6px; left: -6px; }
 .blueprint > .corner.br { bottom: -6px; right: -6px; }
+
+.blueprint > .corner::before,
+.blueprint > .corner::after {
+  display: none;
+}
 
 .duotone {
   position: relative;
