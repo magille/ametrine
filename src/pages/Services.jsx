@@ -1,9 +1,10 @@
 import { useParams, Link, Navigate } from "react-router-dom"
 import CtaBand from "../components/CtaBand"
+import DuotoneImage from "../components/DuotoneImage"
 import { useContent } from "../data/contentApi.jsx"
 
 export default function Services() {
-  const { content: { services, home } } = useContent()
+  const { content: { services, home, images } } = useContent()
   const { slug } = useParams()
 
   if (!slug) {
@@ -23,6 +24,14 @@ export default function Services() {
         <p className="text-lg text-neutral-600 max-w-2xl">
           Select a service to read what it covers, how we deliver it and what you receive.
         </p>
+      </section>
+
+      <section className="max-w-[90rem] mx-auto px-6 pb-8">
+        <DuotoneImage
+          src={images?.services || ""}
+          alt="Ametrine consulting team discussing programme design and MEL support"
+          ratio="aspect-[16/7]"
+        />
       </section>
 
       <section className="max-w-[90rem] mx-auto px-6 pb-20 grid lg:grid-cols-[340px_1fr] gap-12">

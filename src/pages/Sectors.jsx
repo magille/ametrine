@@ -1,10 +1,11 @@
 import CtaBand from "../components/CtaBand"
 import BlueprintCard from "../components/BlueprintCard"
 import SectionHeading from "../components/SectionHeading"
+import DuotoneImage from "../components/DuotoneImage"
 import { useContent } from "../data/contentApi.jsx"
 
 export default function Sectors() {
-  const { content: { sectors, home } } = useContent()
+  const { content: { sectors, home, images } } = useContent()
 
   return (
     <div>
@@ -13,6 +14,14 @@ export default function Sectors() {
         <div className="h-px w-full bg-primary-200/60 mb-8" />
         <h1 className="text-5xl md:text-7xl font-bold leading-[0.9] mb-7">{sectors.title}</h1>
         <p className="text-lg text-neutral-700 max-w-3xl leading-relaxed">{sectors.intro}</p>
+      </section>
+
+      <section className="max-w-[90rem] mx-auto px-6 pb-8">
+        <DuotoneImage
+          src={images?.sectors || ""}
+          alt="Consultants facilitating sector-focused learning and programme design sessions"
+          ratio="aspect-[16/7]"
+        />
       </section>
 
       <section className="max-w-[90rem] mx-auto px-6 py-12 md:py-16">

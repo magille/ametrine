@@ -1,12 +1,13 @@
 import { useState } from "react"
 import BlueprintCard from "../components/BlueprintCard"
 import Button from "../components/Button"
+import DuotoneImage from "../components/DuotoneImage"
 import { useContent } from "../data/contentApi.jsx"
 
 const contactEndpoint = import.meta.env.VITE_CONTACT_FORM_ENDPOINT
 
 export default function Contact() {
-  const { content: { contact } } = useContent()
+  const { content: { contact, images } } = useContent()
   const [form, setForm] = useState(() => ({
     fullName: "",
     organisation: "",
@@ -107,6 +108,14 @@ export default function Contact() {
         <div className="h-px w-full bg-primary-200/60 mb-8" />
         <h1 className="text-5xl md:text-6xl font-bold leading-[0.95] mb-6">{contact.title}</h1>
         <p className="text-lg text-neutral-600 max-w-2xl">{contact.body}</p>
+      </section>
+
+      <section className="max-w-[90rem] mx-auto px-6 pb-8">
+        <DuotoneImage
+          src={images?.contact || ""}
+          alt="Ametrine team discussing a client assignment and next steps"
+          ratio="aspect-[16/7]"
+        />
       </section>
 
       <section className="max-w-[90rem] mx-auto px-6 pb-20 grid lg:grid-cols-[1fr_1.4fr] gap-12">
