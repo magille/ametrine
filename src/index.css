@@ -7,7 +7,10 @@
 }
 
 :root {
-  --brand-blue: #2C6BEF;
+  --brand-blue: #55C6B4;
+  --brand-blue-deep: #267267;
+  --brand-warm-overlay: rgba(255, 173, 109, 0.12);
+  --brand-blue-overlay: rgba(85, 198, 180, 0.08);
 }
 
 html {
@@ -16,6 +19,14 @@ html {
 
 .brand-blue {
   color: var(--brand-blue);
+}
+
+a {
+  color: var(--brand-blue);
+}
+
+a:hover {
+  color: var(--brand-blue-deep);
 }
 
 body {
@@ -37,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ::selection {
-  background-color: #4A1B9E;
+  background-color: var(--brand-blue);
   color: #fff;
 }
 
@@ -45,7 +56,7 @@ a, button {
   outline-offset: 2px;
 }
 a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
-  outline: 2px solid #4A1B9E;
+  outline: 2px solid var(--brand-blue);
 }
 
 /* Blueprint corner-mark frame, used by BlueprintCard */
@@ -81,18 +92,18 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   overflow: hidden;
 }
 .duotone img {
-  filter: grayscale(1) contrast(1.15) brightness(0.95);
-  mix-blend-mode: luminosity;
+  filter: none;
+  mix-blend-mode: normal;
 }
 .duotone::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(74,27,158,0.82), rgba(78,205,196,0.3));
-  mix-blend-mode: multiply;
+  background: linear-gradient(135deg, var(--brand-warm-overlay), var(--brand-blue-overlay));
+  pointer-events: none;
 }
 .duotone.light::after {
-  background: linear-gradient(135deg, rgba(74,27,158,0.55), rgba(78,205,196,0.25));
+  background: linear-gradient(135deg, rgba(255, 173, 109, 0.08), rgba(85, 198, 180, 0.04));
 }
 
 .input {
