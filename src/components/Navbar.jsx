@@ -11,7 +11,7 @@ function NavItem({ to, children, onClick }) {
       end={to === "/"}
       className={({ isActive }) =>
         `font-heading uppercase text-sm font-semibold tracking-wide pb-1 border-b-2 transition-colors ${
-          isActive ? "text-brandBlue-600 border-brandBlue" : "text-ink border-transparent hover:text-brandBlue-700"
+          isActive ? "text-primary border-primary" : "text-ink border-transparent hover:text-brandBlue-700"
         }`
       }
     >
@@ -47,7 +47,7 @@ export default function Navbar() {
 
           <Link
             to="/contact"
-            className="hidden lg:inline-flex items-center justify-center bg-brandBlue text-white px-5 py-2.5 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-brandBlue-700 transition-colors"
+            className="hidden lg:inline-flex items-center justify-center bg-primary text-white px-5 py-2.5 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-brandBlue-700 transition-colors"
           >
             Discuss an assignment
           </Link>
@@ -72,7 +72,7 @@ export default function Navbar() {
           <Link
             to="/contact"
             onClick={close}
-            className="inline-flex items-center justify-center bg-brandBlue text-white px-6 py-3 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-brandBlue-700 transition-colors w-full"
+            className="inline-flex items-center justify-center bg-primary text-white px-6 py-3 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-brandBlue-700 transition-colors w-full"
           >
             Discuss an assignment
           </Link>

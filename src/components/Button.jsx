@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
 
 const variants = {
-  primary: "bg-brandBlue text-white border border-brandBlue hover:bg-brandBlue-700 hover:border-brandBlue-700",
-  secondary: "bg-transparent text-ink border border-ink hover:bg-brandBlue hover:text-white hover:border-brandBlue",
+  primary: "bg-primary text-white border border-primary hover:bg-brandBlue-700 hover:border-brandBlue-700",
+  secondary: "bg-transparent text-primary border border-primary hover:bg-brandBlue hover:text-white hover:border-brandBlue",
   ghostDark: "bg-transparent text-white border border-white/70 hover:bg-brandBlue hover:text-white hover:border-brandBlue",
   onDark: "bg-brandBlue-100 text-brandBlue-900 border border-brandBlue-100 hover:bg-white",
 }

@@ -7,6 +7,8 @@
 }
 
 :root {
+  --brand-purple: #4A1B9E;
+  --brand-purple-deep: #351470;
   --brand-blue: #55C6B4;
   --brand-blue-deep: #267267;
   --brand-warm-overlay: rgba(255, 173, 109, 0.12);
@@ -22,7 +24,7 @@ html {
 }
 
 a {
-  color: var(--brand-blue);
+  color: var(--brand-purple);
 }
 
 a:hover {
@@ -44,7 +46,7 @@ body::before {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply font-heading uppercase tracking-tight;
+  @apply font-heading uppercase tracking-tight text-primary-600;
 }
 
 ::selection {

@@ -25,7 +25,7 @@ export default function Home() {
               MEL / Research / Data
             </p>
             <h1 className="text-5xl md:text-7xl font-bold leading-[0.9]">
-              <span className="text-ink">{home.hero.headlineTop}</span>{" "}
+              <span className="text-primary-600">{home.hero.headlineTop}</span>{" "}
               <span className="text-brandBlue-600">{home.hero.headlineAccent}</span>
             </h1>
             <p className="text-lg text-neutral-600 max-w-xl mt-7">{home.hero.body}</p>
@@ -58,7 +58,7 @@ export default function Home() {
               {home.whoWeAre.eyebrow}
             </p>
             <div className="h-px w-full bg-brandBlue-200/70 mb-6" />
-            <h2 className="text-4xl md:text-5xl font-bold leading-[0.95] text-ink">{home.whoWeAre.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold leading-[0.95] text-primary-600">{home.whoWeAre.title}</h2>
             <DuotoneImage src={images?.impact || whoWeArePhoto} alt="Warm evening light across a landscape, reflecting thoughtful and grounded advisory work" ratio="aspect-[4/3]" className="mt-6" />
           </div>
           <div className="md:pt-14">
