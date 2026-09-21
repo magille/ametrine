@@ -11,7 +11,7 @@ function NavItem({ to, children, onClick }) {
       end={to === "/"}
       className={({ isActive }) =>
         `font-heading uppercase text-sm font-semibold tracking-wide pb-1 border-b-2 transition-colors ${
-          isActive ? "text-primary border-primary" : "text-ink border-transparent hover:text-primary"
+          isActive ? "text-brandBlue-600 border-brandBlue" : "text-ink border-transparent hover:text-brandBlue-700"
         }`
       }
     >
@@ -26,7 +26,7 @@ export default function Navbar() {
   const close = () => setOpen(false)
 
   return (
-    <header className="sticky top-0 z-50 bg-paper/95 backdrop-blur border-b border-primary-200/60">
+    <header className="sticky top-0 z-50 bg-paper/95 backdrop-blur border-b border-brandBlue-200/70">
       <div className="max-w-[90rem] mx-auto px-6">
         <div className="flex items-center justify-between py-3 gap-4">
           <NavLink to="/" className="flex items-center shrink-0" onClick={close} aria-label="Ametrine Consulting home">
@@ -47,7 +47,7 @@ export default function Navbar() {
 
           <Link
             to="/contact"
-            className="hidden lg:inline-flex items-center justify-center bg-primary text-white px-5 py-2.5 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-primary-700 transition-colors"
+            className="hidden lg:inline-flex items-center justify-center bg-brandBlue text-white px-5 py-2.5 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-brandBlue-700 transition-colors"
           >
             Discuss an assignment
           </Link>
@@ -61,7 +61,7 @@ export default function Navbar() {
           </button>
         </div>
 
-        <div className={`${open ? "flex" : "hidden"} lg:hidden flex-col gap-4 border-t border-primary-200/60 py-4`}>
+        <div className={`${open ? "flex" : "hidden"} lg:hidden flex-col gap-4 border-t border-brandBlue-200/70 py-4`}>
           <nav className="flex flex-col gap-4">
             {nav.items.map((item) => (
               <NavItem key={item.path} to={item.path} onClick={close}>
@@ -72,7 +72,7 @@ export default function Navbar() {
           <Link
             to="/contact"
             onClick={close}
-            className="inline-flex items-center justify-center bg-primary text-white px-6 py-3 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-primary-700 transition-colors w-full"
+            className="inline-flex items-center justify-center bg-brandBlue text-white px-6 py-3 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-brandBlue-700 transition-colors w-full"
           >
             Discuss an assignment
           </Link>

@@ -17,16 +17,16 @@ export default function Home() {
       <section className="max-w-[90rem] mx-auto px-6 pt-10 pb-10 md:pt-14 md:pb-12">
         <div className="grid md:grid-cols-[1.05fr_0.95fr] gap-8 md:gap-16 items-center">
           <div>
-            <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
+            <p className="font-heading uppercase tracking-widest text-sm font-semibold text-brandBlue-600 mb-3">
               {home.hero.eyebrow}
             </p>
-            <div className="h-px w-full bg-primary-200/60 mb-8" />
+            <div className="h-px w-full bg-brandBlue-200/70 mb-8" />
             <p className="font-heading uppercase tracking-[0.24em] text-xs text-neutral-500 mb-5">
               MEL / Research / Data
             </p>
             <h1 className="text-5xl md:text-7xl font-bold leading-[0.9]">
               <span className="text-ink">{home.hero.headlineTop}</span>{" "}
-              <span className="text-primary">{home.hero.headlineAccent}</span>
+              <span className="text-brandBlue-600">{home.hero.headlineAccent}</span>
             </h1>
             <p className="text-lg text-neutral-600 max-w-xl mt-7">{home.hero.body}</p>
             <div className="flex flex-wrap gap-4 mt-7">
@@ -54,10 +54,10 @@ export default function Home() {
       <section className="max-w-[90rem] mx-auto px-6 py-10 md:py-12">
         <div className="grid md:grid-cols-2 gap-8 md:gap-14">
           <div>
-            <p className="font-heading uppercase tracking-widest text-sm font-semibold text-primary-600 mb-3">
+            <p className="font-heading uppercase tracking-widest text-sm font-semibold text-brandBlue-600 mb-3">
               {home.whoWeAre.eyebrow}
             </p>
-            <div className="h-px w-full bg-primary-200/60 mb-6" />
+            <div className="h-px w-full bg-brandBlue-200/70 mb-6" />
             <h2 className="text-4xl md:text-5xl font-bold leading-[0.95] text-ink">{home.whoWeAre.title}</h2>
             <DuotoneImage src={images?.impact || whoWeArePhoto} alt="Warm evening light across a landscape, reflecting thoughtful and grounded advisory work" ratio="aspect-[4/3]" className="mt-6" />
           </div>
@@ -71,7 +71,7 @@ export default function Home() {
               {audienceTags.map((tag) => (
                 <span
                   key={tag}
-                  className="border border-primary-300/80 text-primary-700 px-3.5 py-2 font-heading uppercase text-xs tracking-wide font-semibold"
+                  className="border border-brandBlue-300/80 text-brandBlue-700 px-3.5 py-2 font-heading uppercase text-xs tracking-wide font-semibold"
                 >
                   {tag}
                 </span>
@@ -100,7 +100,7 @@ export default function Home() {
             <BlueprintCard key={service.slug} className="p-6">
               <Link
                 to={`/services/${service.slug}`}
-                className="font-heading uppercase text-xl font-bold leading-tight hover:text-primary-700 transition-colors block"
+                className="font-heading uppercase text-xl font-bold leading-tight hover:text-brandBlue-700 transition-colors block"
               >
                 {service.title}
               </Link>
