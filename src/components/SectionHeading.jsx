@@ -8,7 +8,7 @@ export default function SectionHeading({ eyebrow, title, subtitle, align = "left
       )}
       <div className={`h-px w-full mb-6 ${dark ? "bg-brandBlue-300/30" : "bg-brandBlue-200/70"}`} />
       {title && (
-        <h2 className={`text-4xl md:text-5xl font-bold leading-[0.95] ${dark ? "text-white" : "text-ink"}`}>
+        <h2 className={`text-4xl md:text-5xl font-bold leading-[0.95] ${dark ? "text-white" : "text-primary-600"}`}>
           {title}
         </h2>
       )}

@@ -127,13 +127,13 @@ export default function Services() {
           <div className="flex flex-wrap gap-4 mt-12">
             <Link
               to="/contact"
-              className="inline-flex items-center justify-center bg-brandBlue text-white px-6 py-3 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-brandBlue-700 transition-colors"
+              className="inline-flex items-center justify-center bg-primary text-white px-6 py-3 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-brandBlue-700 transition-colors"
             >
               Discuss this service
             </Link>
             <Link
               to="/resources"
-              className="inline-flex items-center justify-center bg-transparent text-ink border border-ink px-6 py-3 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-ink hover:text-white transition-colors"
+              className="inline-flex items-center justify-center bg-transparent text-primary border border-primary px-6 py-3 font-heading uppercase tracking-wide text-sm font-semibold hover:bg-brandBlue hover:text-white hover:border-brandBlue transition-colors"
             >
               Browse resources
             </Link>
