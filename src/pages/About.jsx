@@ -48,6 +48,12 @@ export default function About() {
 
       <section className="max-w-[90rem] mx-auto px-6 py-12 md:py-16">
         <SectionHeading eyebrow="Leadership Snapshot" title="Senior expertise, grounded in practice" />
+        <DuotoneImage
+          src={images?.seniorExpertise || aboutPhoto}
+          alt="Ametrine consultants in a senior planning and learning session"
+          ratio="aspect-[16/7]"
+          className="mb-8"
+        />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {about.leadershipSnapshot.map((item) => <BlueprintCard key={item} className="p-6"><p className="text-neutral-700">{item}</p></BlueprintCard>)}
         </div>

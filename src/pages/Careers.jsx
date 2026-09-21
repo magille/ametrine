@@ -1,9 +1,10 @@
 import BlueprintCard from "../components/BlueprintCard"
 import Button from "../components/Button"
+import DuotoneImage from "../components/DuotoneImage"
 import { useContent } from "../data/contentApi.jsx"
 
 export default function Careers() {
-  const { content: { careers } } = useContent()
+  const { content: { careers, images } } = useContent()
   return (
     <div>
       <section className="max-w-[90rem] mx-auto px-6 pt-16 pb-8">
@@ -13,6 +14,14 @@ export default function Careers() {
         <div className="h-px w-full bg-primary-200/60 mb-8" />
         <h1 className="text-5xl md:text-6xl font-bold leading-[0.95] mb-6">{careers.title}</h1>
         <p className="text-lg text-neutral-600 max-w-2xl">{careers.intro}</p>
+      </section>
+
+      <section className="max-w-[90rem] mx-auto px-6 pb-8">
+        <DuotoneImage
+          src={images?.careers || ""}
+          alt="Ametrine consultants collaborate in a professional team environment"
+          ratio="aspect-[16/7]"
+        />
       </section>
 
       <section className="max-w-[90rem] mx-auto px-6 pb-16 space-y-6">

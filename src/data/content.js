@@ -15,9 +15,14 @@ export const nav = {
 }
 
 export const images = {
-  hero: "",
-  about: "",
-  impact: "",
+  hero: "/section-images/Home  Page.png",
+  about: "/section-images/Our Story.png",
+  impact: "/section-images/Impact.png",
+  services: "/section-images/Services.png",
+  sectors: "/section-images/Sector Experience.png",
+  seniorExpertise: "/section-images/Seniour Expertise Section.jpeg",
+  careers: "/section-images/Career Section.png",
+  contact: "/section-images/Contact Us.png",
 }
 
 export const audienceTags = [
