@@ -134,6 +134,20 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   transform: translateY(0);
 }
 
+.logo-slider-track {
+  animation: logo-slider-scroll 32s linear infinite;
+}
+
+.logo-slider:hover .logo-slider-track,
+.logo-slider:focus-within .logo-slider-track {
+  animation-play-state: paused;
+}
+
+@keyframes logo-slider-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-50% - 0.5rem)); }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .reveal {
     opacity: 1;
@@ -143,6 +157,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   .duotone img,
   .blueprint {
     transition: none;
+  }
+  .logo-slider-track {
+    animation: none;
   }
 }
 
