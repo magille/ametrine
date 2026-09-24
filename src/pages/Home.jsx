@@ -10,6 +10,8 @@ import heroPhoto from "../assets/photos/hero.jpg"
 import whoWeArePhoto from "../assets/photos/impact.jpg"
 import Icon from "../components/Icon"
 import Reveal from "../components/Reveal"
+import ClientLogoSlider from "../components/ClientLogoSlider"
+import TestimonialCarousel from "../components/TestimonialCarousel"
 
 export default function Home() {
   const { content: { home, audienceTags, services, images } } = useContent()
@@ -116,6 +118,9 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <ClientLogoSlider />
+      <TestimonialCarousel />
 
       <CtaBand
         eyebrow={home.closingCta.eyebrow}

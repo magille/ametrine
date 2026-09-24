@@ -134,6 +134,63 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   transform: translateY(0);
 }
 
+.logo-slider-track {
+  animation: logo-slider-scroll 32s linear infinite;
+}
+
+.logo-slider:hover .logo-slider-track,
+.logo-slider:focus-within .logo-slider-track {
+  animation-play-state: paused;
+}
+
+@keyframes logo-slider-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-50% - 0.5rem)); }
+}
+
+/* Slow, gentle drift on the gemstone facet glows so the background feels
+   alive rather than static, without becoming distracting. */
+.drift-a {
+  animation: facet-drift-a 22s ease-in-out infinite;
+}
+.drift-b {
+  animation: facet-drift-b 26s ease-in-out infinite;
+}
+@keyframes facet-drift-a {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(2%, 3%) scale(1.06); }
+}
+@keyframes facet-drift-b {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-3%, -2%) scale(1.05); }
+}
+
+/* Animated underline that sweeps in under section headings on scroll-reveal,
+   and a subtle shine sweep across primary buttons on hover, for a livelier,
+   more dynamic feel site-wide. */
+h1, h2, h3 {
+  position: relative;
+}
+
+.btn-shine {
+  position: relative;
+  overflow: hidden;
+}
+.btn-shine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(115deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transform: skewX(-20deg);
+  transition: left 0.6s ease;
+}
+.btn-shine:hover::before {
+  left: 130%;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .reveal {
     opacity: 1;
@@ -143,6 +200,17 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   .duotone img,
   .blueprint {
     transition: none;
+  }
+  .logo-slider-track {
+    animation: none;
+  }
+  .drift-a,
+  .drift-b {
+    animation: none;
+  }
+  .btn-shine::before {
+    transition: none;
+    display: none;
   }
 }
 
