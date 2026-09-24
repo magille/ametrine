@@ -3,6 +3,7 @@ import BlueprintCard from "../components/BlueprintCard"
 import SectionHeading from "../components/SectionHeading"
 import DuotoneImage from "../components/DuotoneImage"
 import Icon from "../components/Icon"
+import Reveal from "../components/Reveal"
 import { useContent } from "../data/contentApi.jsx"
 
 const sectorIcon = (title) => {
@@ -40,14 +41,16 @@ export default function Sectors() {
       <section className="max-w-[90rem] mx-auto px-6 py-12 md:py-16">
         <SectionHeading eyebrow="Cross-sector methods, local context" title="Where our practice meets real-world decisions" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {sectors.items.map((sector) => (
-            <BlueprintCard key={sector.title} className="p-6">
-              <h2 className="text-xl font-bold uppercase mb-3 flex items-center gap-2">
-                <Icon name={sectorIcon(sector.title)} className="h-5 w-5 text-primary shrink-0" />
-                {sector.title}
-              </h2>
-              <p className="text-neutral-600">{sector.text}</p>
-            </BlueprintCard>
+          {sectors.items.map((sector, index) => (
+            <Reveal key={sector.title} delay={index * 70}>
+              <BlueprintCard className="p-6">
+                <h2 className="text-xl font-bold uppercase mb-3 flex items-center gap-2">
+                  <Icon name={sectorIcon(sector.title)} className="h-5 w-5 text-primary shrink-0" />
+                  {sector.title}
+                </h2>
+                <p className="text-neutral-600">{sector.text}</p>
+              </BlueprintCard>
+            </Reveal>
           ))}
         </div>
       </section>

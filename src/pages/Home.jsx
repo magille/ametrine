@@ -9,6 +9,7 @@ import { useContent } from "../data/contentApi.jsx"
 import heroPhoto from "../assets/photos/hero.jpg"
 import whoWeArePhoto from "../assets/photos/impact.jpg"
 import Icon from "../components/Icon"
+import Reveal from "../components/Reveal"
 
 export default function Home() {
   const { content: { home, audienceTags, services, images } } = useContent()
@@ -87,9 +88,11 @@ export default function Home() {
         <SectionHeading eyebrow={home.difference.eyebrow} title={home.difference.title} />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {home.difference.items.map((item, index) => (
-            <BlueprintCard key={item} className="p-6">
-              <p className="text-neutral-700">{item}</p>
-            </BlueprintCard>
+            <Reveal key={item} delay={index * 70}>
+              <BlueprintCard className="p-6">
+                <p className="text-neutral-700">{item}</p>
+              </BlueprintCard>
+            </Reveal>
           ))}
         </div>
       </section>
@@ -98,16 +101,18 @@ export default function Home() {
       <section className="max-w-[90rem] mx-auto px-6 py-12 md:py-16">
         <SectionHeading eyebrow="Featured Services" title="What we help you do" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {services.map((service) => (
-            <BlueprintCard key={service.slug} className="p-6">
-              <Link
-                to={`/services/${service.slug}`}
-                className="font-heading uppercase text-xl font-bold leading-tight hover:text-brandBlue-700 transition-colors flex items-start gap-3"
-              >
-                <Icon name={service.slug.includes("research") ? "compass" : service.slug.includes("data") ? "database" : service.slug.includes("talent") ? "users" : service.slug.includes("training") ? "graduation" : service.slug.includes("proposal") ? "lightbulb" : "chart"} className="h-6 w-6 shrink-0 text-brandBlue-600" />
-                {service.title}
-              </Link>
-            </BlueprintCard>
+          {services.map((service, index) => (
+            <Reveal key={service.slug} delay={index * 70}>
+              <BlueprintCard className="p-6">
+                <Link
+                  to={`/services/${service.slug}`}
+                  className="font-heading uppercase text-xl font-bold leading-tight hover:text-brandBlue-700 transition-colors flex items-start gap-3"
+                >
+                  <Icon name={service.slug.includes("research") ? "compass" : service.slug.includes("data") ? "database" : service.slug.includes("talent") ? "users" : service.slug.includes("training") ? "graduation" : service.slug.includes("proposal") ? "lightbulb" : "chart"} className="h-6 w-6 shrink-0 text-brandBlue-600" />
+                  {service.title}
+                </Link>
+              </BlueprintCard>
+            </Reveal>
           ))}
         </div>
       </section>
