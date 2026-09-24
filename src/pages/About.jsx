@@ -4,6 +4,7 @@ import DuotoneImage from "../components/DuotoneImage"
 import CtaBand from "../components/CtaBand"
 import { useContent } from "../data/contentApi.jsx"
 import aboutPhoto from "../assets/photos/about.jpg"
+import Icon from "../components/Icon"
 
 export default function About() {
   const { content: { about, home, images } } = useContent()
@@ -26,11 +27,11 @@ export default function About() {
 
       <section className="max-w-[90rem] mx-auto px-6 py-12 md:py-16 grid md:grid-cols-2 gap-6">
         <BlueprintCard className="p-7 md:p-8">
-          <p className="font-heading uppercase text-sm font-bold text-primary-500 mb-3">Vision</p>
+          <div className="flex items-center gap-3 mb-3"><Icon name="eye" className="h-6 w-6 text-brandBlue-600" /><p className="font-heading uppercase text-sm font-bold text-primary-500">Vision</p></div>
           <p className="text-xl text-ink">{about.vision}</p>
         </BlueprintCard>
         <BlueprintCard className="p-7 md:p-8">
-          <p className="font-heading uppercase text-sm font-bold text-primary-500 mb-3">Mission</p>
+          <div className="flex items-center gap-3 mb-3"><Icon name="target" className="h-6 w-6 text-brandBlue-600" /><p className="font-heading uppercase text-sm font-bold text-primary-500">Mission</p></div>
           <p className="text-xl text-ink">{about.mission}</p>
         </BlueprintCard>
       </section>
@@ -69,7 +70,7 @@ export default function About() {
               <i className="corner tr text-primary-300" />
               <i className="corner bl text-primary-300" />
               <i className="corner br text-primary-300" />
-              <h3 className="text-2xl font-bold uppercase font-heading mb-2">{value.title}</h3>
+              <div className="flex items-center gap-3 mb-2"><Icon name={value.title.toLowerCase() === "integrity" ? "compass" : value.title.toLowerCase() === "excellence" ? "target" : value.title.toLowerCase() === "partnership" ? "users" : value.title.toLowerCase() === "learning" ? "lightbulb" : value.title.toLowerCase() === "innovation" ? "chart" : value.title.toLowerCase() === "inclusion" ? "users" : "eye"} className="h-6 w-6 text-brandBlue-600" /><h3 className="text-2xl font-bold uppercase font-heading">{value.title}</h3></div>
               <p className="text-neutral-600">{value.text}</p>
             </div>
           ))}

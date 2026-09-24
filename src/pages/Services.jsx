@@ -2,6 +2,7 @@ import { useParams, Link, Navigate } from "react-router-dom"
 import CtaBand from "../components/CtaBand"
 import DuotoneImage from "../components/DuotoneImage"
 import { useContent } from "../data/contentApi.jsx"
+import Icon from "../components/Icon"
 
 export default function Services() {
   const { content: { services, home, images } } = useContent()
@@ -46,6 +47,7 @@ export default function Services() {
                   isActive ? "bg-primary-50 border-l-4 border-l-primary pl-3" : "hover:bg-primary-50/60"
                 }`}
               >
+                <Icon name={service.slug.includes("research") ? "compass" : service.slug.includes("data") ? "database" : service.slug.includes("talent") ? "users" : service.slug.includes("training") ? "graduation" : service.slug.includes("proposal") ? "lightbulb" : "chart"} className="h-5 w-5 shrink-0 text-brandBlue-600" />
                 <span className="font-heading uppercase font-bold text-lg leading-tight">{service.title}</span>
               </Link>
             )
@@ -53,7 +55,7 @@ export default function Services() {
         </nav>
 
         <article>
-          <h2 className="text-3xl md:text-4xl font-bold uppercase mb-6">{active.title}</h2>
+          <div className="flex items-center gap-3 mb-6"><Icon name={active.slug.includes("research") ? "compass" : active.slug.includes("data") ? "database" : active.slug.includes("talent") ? "users" : active.slug.includes("training") ? "graduation" : active.slug.includes("proposal") ? "lightbulb" : "chart"} className="h-8 w-8 text-brandBlue-600" /><h2 className="text-3xl md:text-4xl font-bold uppercase">{active.title}</h2></div>
           <p className="text-lg text-neutral-700 mb-10 max-w-2xl">{active.lede}</p>
 
           <div className="space-y-12">

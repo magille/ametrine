@@ -2,7 +2,20 @@ import CtaBand from "../components/CtaBand"
 import BlueprintCard from "../components/BlueprintCard"
 import SectionHeading from "../components/SectionHeading"
 import DuotoneImage from "../components/DuotoneImage"
+import Icon from "../components/Icon"
 import { useContent } from "../data/contentApi.jsx"
+
+const sectorIcon = (title) => {
+  const t = title.toLowerCase()
+  if (t.includes("health") || t.includes("nutrition")) return "health"
+  if (t.includes("education")) return "graduation"
+  if (t.includes("gender") || t.includes("protection")) return "shield"
+  if (t.includes("governance") || t.includes("institutional")) return "briefcase"
+  if (t.includes("livelihood") || t.includes("climate") || t.includes("resilience")) return "globe"
+  if (t.includes("wash") || t.includes("infrastructure")) return "database"
+  if (t.includes("civil society") || t.includes("localisation")) return "network"
+  return "compass"
+}
 
 export default function Sectors() {
   const { content: { sectors, home, images } } = useContent()
@@ -29,7 +42,10 @@ export default function Sectors() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {sectors.items.map((sector) => (
             <BlueprintCard key={sector.title} className="p-6">
-              <h2 className="text-xl font-bold uppercase mb-3">{sector.title}</h2>
+              <h2 className="text-xl font-bold uppercase mb-3 flex items-center gap-2">
+                <Icon name={sectorIcon(sector.title)} className="h-5 w-5 text-primary shrink-0" />
+                {sector.title}
+              </h2>
               <p className="text-neutral-600">{sector.text}</p>
             </BlueprintCard>
           ))}

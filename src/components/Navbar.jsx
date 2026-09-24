@@ -2,6 +2,7 @@ import { useState } from "react"
 import { NavLink, Link } from "react-router-dom"
 import { useContent } from "../data/contentApi.jsx"
 import fullLogo from "../assets/ametrine-navbar-logo.jpeg"
+import Icon from "./Icon"
 
 function NavItem({ to, children, onClick }) {
   return (
@@ -22,11 +23,39 @@ function NavItem({ to, children, onClick }) {
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
-  const { content: { nav } } = useContent()
+  const { content: { nav, siteMeta } } = useContent()
   const close = () => setOpen(false)
 
   return (
     <header className="sticky top-0 z-50 bg-paper/95 backdrop-blur border-b border-brandBlue-200/70">
+      <div className="border-b border-brandBlue-100/70">
+        <div className="max-w-[90rem] mx-auto px-6 py-1.5 flex items-center justify-between gap-4 text-xs font-semibold">
+          <div className="flex items-center gap-2 text-brandBlue-700">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <Icon name="linkedin" className="h-4 w-4" />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram">
+              <Icon name="instagram" className="h-4 w-4" />
+            </a>
+          </div>
+          <div className="flex items-center gap-4">
+          <a
+            href={`mailto:${siteMeta.email}`}
+            className="inline-flex items-center gap-1.5 text-brandBlue-700 hover:text-primary transition-colors"
+          >
+            <Icon name="mail" className="h-3.5 w-3.5" />
+            {siteMeta.email}
+          </a>
+          <a
+            href={`tel:${siteMeta.phone.replace(/\s/g, "")}`}
+            className="inline-flex items-center gap-1.5 text-brandBlue-700 hover:text-primary transition-colors"
+          >
+            <Icon name="phone" className="h-3.5 w-3.5" />
+            {siteMeta.phone}
+          </a>
+          </div>
+        </div>
+      </div>
       <div className="max-w-[90rem] mx-auto px-6">
         <div className="flex items-center justify-between py-3 gap-4">
           <NavLink to="/" className="flex items-center shrink-0" onClick={close} aria-label="Ametrine Consulting home">

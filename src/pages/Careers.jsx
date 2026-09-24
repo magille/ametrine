@@ -1,7 +1,16 @@
 import BlueprintCard from "../components/BlueprintCard"
 import Button from "../components/Button"
 import DuotoneImage from "../components/DuotoneImage"
+import Icon from "../components/Icon"
 import { useContent } from "../data/contentApi.jsx"
+
+const trackIcon = (title) => {
+  const t = title.toLowerCase()
+  if (t.includes("opening")) return "briefcase"
+  if (t.includes("consultant") || t.includes("network")) return "network"
+  if (t.includes("intern")) return "graduation"
+  return "users"
+}
 
 export default function Careers() {
   const { content: { careers, images } } = useContent()
@@ -27,7 +36,10 @@ export default function Careers() {
       <section className="max-w-[90rem] mx-auto px-6 pb-16 space-y-6">
         {careers.tracks.map((track) => (
           <BlueprintCard key={track.title}>
-            <h2 className="text-2xl md:text-3xl font-bold uppercase mb-3">{track.title}</h2>
+            <h2 className="text-2xl md:text-3xl font-bold uppercase mb-3 flex items-center gap-2">
+              <Icon name={trackIcon(track.title)} className="h-6 w-6 text-primary shrink-0" />
+              {track.title}
+            </h2>
             <p className="text-neutral-600 max-w-2xl mb-5">{track.text}</p>
             <span className="inline-block bg-primary-50 text-primary-700 px-4 py-2 font-heading uppercase text-sm font-semibold">
               {track.tag}
