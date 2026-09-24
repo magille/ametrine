@@ -165,6 +165,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   50% { transform: translate(-3%, -2%) scale(1.05); }
 }
 
+/* Subtle "Ken Burns" zoom applied to the active slide of ImageSlider so
+   transitions feel like gentle motion rather than a static crossfade. */
+.img-kenburns {
+  animation: img-kenburns 6s ease-out forwards;
+}
+@keyframes img-kenburns {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.08); }
+}
+
 /* Animated underline that sweeps in under section headings on scroll-reveal,
    and a subtle shine sweep across primary buttons on hover, for a livelier,
    more dynamic feel site-wide. */
@@ -206,6 +216,9 @@ h1, h2, h3 {
   }
   .drift-a,
   .drift-b {
+    animation: none;
+  }
+  .img-kenburns {
     animation: none;
   }
   .btn-shine::before {
