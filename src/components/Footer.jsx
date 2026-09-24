@@ -8,8 +8,7 @@ export default function Footer() {
     <footer className="border-t border-brandBlue-200/70">
       <div className="max-w-[90rem] mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
         <div>
-          <img src={logoPurple} alt={siteMeta.fullName} className="w-32 h-32 border border-brandBlue-200/70 object-cover" />
-          <p className="text-neutral-600 max-w-xs mt-4">{siteMeta.footerTagline}</p>
+          <img src={logoPurple} alt={siteMeta.fullName} className="w-56 h-56 object-contain -ml-2" />
         </div>
 
         <div>

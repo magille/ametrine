@@ -4,6 +4,7 @@ import DuotoneImage from "../components/DuotoneImage"
 import { useContent } from "../data/contentApi.jsx"
 import impactPhoto from "../assets/photos/impact.jpg"
 import Icon from "../components/Icon"
+import Reveal from "../components/Reveal"
 
 export default function Impact() {
   const { content: { impact, home, images } } = useContent()
@@ -29,12 +30,14 @@ export default function Impact() {
       </section>
 
       <section className="max-w-[90rem] mx-auto px-6 py-12 md:py-16">
-        <SpecSheet
-          title={impact.proofPoints.title}
-          rows={impact.proofPoints.rows}
-          footnote={impact.proofPoints.footnote}
-          icon="target"
-        />
+        <Reveal>
+          <SpecSheet
+            title={impact.proofPoints.title}
+            rows={impact.proofPoints.rows}
+            footnote={impact.proofPoints.footnote}
+            icon="target"
+          />
+        </Reveal>
       </section>
 
       <CtaBand

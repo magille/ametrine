@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { NavLink, Link } from "react-router-dom"
 import { useContent } from "../data/contentApi.jsx"
 import fullLogo from "../assets/ametrine-navbar-logo.jpeg"
@@ -23,11 +23,23 @@ function NavItem({ to, children, onClick }) {
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
   const { content: { nav, siteMeta } } = useContent()
   const close = () => setOpen(false)
 
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 8)
+    onScroll()
+    window.addEventListener("scroll", onScroll, { passive: true })
+    return () => window.removeEventListener("scroll", onScroll)
+  }, [])
+
   return (
-    <header className="sticky top-0 z-50 bg-paper/95 backdrop-blur border-b border-brandBlue-200/70">
+    <header
+      className={`sticky top-0 z-50 bg-paper/95 backdrop-blur border-b border-brandBlue-200/70 transition-shadow duration-300 ${
+        scrolled ? "shadow-[0_8px_24px_-16px_rgba(74,27,158,0.35)]" : ""
+      }`}
+    >
       <div className="border-b border-brandBlue-100/70">
         <div className="max-w-[90rem] mx-auto px-6 py-1.5 flex items-center justify-between gap-4 text-xs font-semibold">
           <div className="flex items-center gap-2 text-brandBlue-700">
@@ -62,7 +74,7 @@ export default function Navbar() {
             <img
               src={fullLogo}
               alt="Ametrine Consulting"
-              className="h-16 w-32 object-contain object-center mix-blend-multiply sm:h-20 sm:w-40"
+              className="h-20 w-20 object-contain object-center mix-blend-multiply sm:h-24 sm:w-24"
             />
           </NavLink>
 
