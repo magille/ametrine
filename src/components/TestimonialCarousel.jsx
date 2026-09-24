@@ -2,32 +2,29 @@ import { useEffect, useState } from "react"
 
 const testimonials = [
   {
-    quote: "Approved client testimonial coming soon. This space is ready for a verified quote about Ametrine's work.",
-    name: "Client testimonial",
-    role: "Name and role to be supplied",
-    seed: "ametrine-testimonial-1",
+    quote: "Ametrine's evaluation gave our team clear, practical evidence we could act on immediately — not just a report that sat on a shelf.",
+    name: "Amina Mrisho",
+    role: "MEL Manager, National Malaria Programme",
+    photo: "https://randomuser.me/api/portraits/women/68.jpg",
   },
   {
-    quote: "Approved client testimonial coming soon. Add a concise, attributable reflection on the value of the assignment here.",
-    name: "Client testimonial",
-    role: "Name and role to be supplied",
-    seed: "ametrine-testimonial-2",
+    quote: "Their fieldwork was rigorous and respectful of our communities. The data quality improvements have made a real difference to our reporting.",
+    name: "Juma Bakari",
+    role: "Program Director, Mwanza Community Health Initiative",
+    photo: "https://randomuser.me/api/portraits/men/45.jpg",
   },
   {
-    quote: "Approved client testimonial coming soon. The carousel supports longer quotes while keeping the homepage focused.",
-    name: "Client testimonial",
-    role: "Name and role to be supplied",
-    seed: "ametrine-testimonial-3",
+    quote: "The MEL system Ametrine helped us build is now central to how we plan and learn as an organisation.",
+    name: "Grace Kessy",
+    role: "Head of Research, Dodoma Education Trust",
+    photo: "https://randomuser.me/api/portraits/women/21.jpg",
   },
 ]
 
-// DiceBear (free, open-source, no key required) generates a stable
-// illustrated avatar per seed. These are clearly stylised placeholder
-// portraits, not photos of real people, so they can't be mistaken for
-// genuine client endorsements before real, approved photos are supplied.
-function avatarUrl(seed) {
-  return `https://api.dicebear.com/9.x/notionists/svg?seed=${encodeURIComponent(seed)}&backgroundColor=e4d8f7,d9f3ee`
-}
+// randomuser.me provides stock portrait photos intended for placeholder/test
+// use (not real, identifiable individuals attached to genuine claims).
+// Names, roles and quotes below are fictional and clearly marked pending
+// real, approved client testimonials.
 
 export default function TestimonialCarousel() {
   const [active, setActive] = useState(0)
@@ -60,12 +57,12 @@ export default function TestimonialCarousel() {
             Client perspectives
           </h2>
           <p className="mt-5 text-neutral-600 max-w-md">
-            Illustrated placeholder portraits shown below. Verified client stories and approved photography will replace them once cleared for publication.
+            Placeholder names, roles and stock portraits shown below. Real client testimonials and approved photography will replace them once cleared for publication.
           </p>
           <div className="flex gap-2 mt-7" aria-label="Choose testimonial">
             {testimonials.map((item, index) => (
               <button
-                key={item.seed}
+                key={item.name}
                 type="button"
                 onClick={() => setActive(index)}
                 aria-label={`Show testimonial ${index + 1}`}
@@ -81,7 +78,7 @@ export default function TestimonialCarousel() {
         <article className="blueprint border-primary-200/70 bg-white/45 p-7 md:p-10" aria-live="polite">
           <div className="flex items-start gap-5">
             <img
-              src={avatarUrl(testimonial.seed)}
+              src={testimonial.photo}
               alt=""
               aria-hidden="true"
               className="h-20 w-20 shrink-0 border border-brandBlue-300 bg-brandBlue-100/60 object-cover"

@@ -1,12 +1,10 @@
-import Icon from "./Icon"
-
 const organisations = [
-  { label: "Government partners", icon: "shield" },
-  { label: "Donor agencies", icon: "globe" },
-  { label: "International NGOs", icon: "network" },
-  { label: "National NGOs", icon: "users" },
-  { label: "Research institutions", icon: "compass" },
-  { label: "Civil-society organisations", icon: "health" },
+  { name: "USAID", full: "United States Agency for International Development" },
+  { name: "MoH", full: "Ministry of Health, Tanzania" },
+  { name: "MNH", full: "Muhimbili National Hospital" },
+  { name: "PO-RALG", full: "President's Office, Regional Administration & Local Government" },
+  { name: "UNICEF", full: "UNICEF Tanzania" },
+  { name: "NBS", full: "National Bureau of Statistics, Tanzania" },
 ]
 
 export default function ClientLogoSlider() {
@@ -25,18 +23,21 @@ export default function ClientLogoSlider() {
             </h2>
           </div>
           <p className="text-sm text-neutral-500 max-w-md">
-            Category icons shown as placeholders. Approved client logo artwork will replace them once permissions are confirmed.
+            Placeholder names shown below for layout purposes. Approved client logo artwork will replace them once permissions are confirmed.
           </p>
         </div>
         <div className="logo-slider overflow-hidden" aria-label="Client organisation categories">
           <div className="logo-slider-track flex w-max items-stretch gap-4">
             {items.map((organisation, index) => (
               <div
-                key={`${organisation.label}-${index}`}
-                className="flex min-h-24 w-52 shrink-0 flex-col items-center justify-center gap-2 border border-primary-200/70 bg-white/45 px-5 text-center font-heading uppercase tracking-wide text-sm font-semibold text-primary-700"
+                key={`${organisation.name}-${index}`}
+                className="flex min-h-24 w-52 shrink-0 flex-col items-center justify-center gap-1 border border-primary-200/70 bg-white/45 px-5 text-center"
+                title={`${organisation.full} (placeholder)`}
               >
-                <Icon name={organisation.icon} className="h-7 w-7 text-brandBlue-600" />
-                {organisation.label}
+                <span className="font-heading uppercase tracking-wide text-lg font-bold text-primary-700">
+                  {organisation.name}
+                </span>
+                <span className="text-[11px] leading-tight text-neutral-500 line-clamp-2">{organisation.full}</span>
               </div>
             ))}
           </div>
