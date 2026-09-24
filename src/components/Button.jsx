@@ -8,7 +8,7 @@ const variants = {
 }
 
 export default function Button({ to, href, onClick, variant = "primary", children, type = "button", className = "", disabled = false }) {
-  const classes = `inline-flex items-center justify-center gap-2 px-6 py-3 font-heading uppercase tracking-wide text-sm font-semibold transition-colors duration-150 ${variants[variant]} ${disabled ? "opacity-60 cursor-not-allowed" : ""} ${className}`
+  const classes = `btn-shine inline-flex items-center justify-center gap-2 px-6 py-3 font-heading uppercase tracking-wide text-sm font-semibold transition-colors duration-150 ${variants[variant]} ${disabled ? "opacity-60 cursor-not-allowed" : ""} ${className}`
 
   if (to) {
     return (
