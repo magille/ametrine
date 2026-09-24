@@ -6,6 +6,20 @@ import { useContent } from "../data/contentApi.jsx"
 import aboutPhoto from "../assets/photos/about.jpg"
 import Icon from "../components/Icon"
 import Reveal from "../components/Reveal"
+import Gallery from "../components/Gallery"
+import partnershipBadge from "../assets/badges/partnership.jpeg"
+import innovationBadge from "../assets/badges/lightbulb.jpeg"
+import impactBadge from "../assets/badges/growth.jpeg"
+import excellenceBadge from "../assets/badges/gears.jpeg"
+
+// A few values have a fitting badge photo; the rest keep the site's line-icon
+// system so the grid stays visually consistent overall.
+const valueBadges = {
+  partnership: partnershipBadge,
+  innovation: innovationBadge,
+  impact: impactBadge,
+  excellence: excellenceBadge,
+}
 
 export default function About() {
   const { content: { about, home, images } } = useContent()
@@ -61,6 +75,8 @@ export default function About() {
         </div>
       </section>
 
+      <Gallery />
+
       {/* Values */}
       <section className="max-w-[90rem] mx-auto px-6 py-16">
         <SectionHeading eyebrow="Our Values" title="What guides every assignment" />
@@ -72,7 +88,19 @@ export default function About() {
                 <i className="corner tr text-primary-300" />
                 <i className="corner bl text-primary-300" />
                 <i className="corner br text-primary-300" />
-                <div className="flex items-center gap-3 mb-2"><Icon name={value.title.toLowerCase() === "integrity" ? "compass" : value.title.toLowerCase() === "excellence" ? "target" : value.title.toLowerCase() === "partnership" ? "users" : value.title.toLowerCase() === "learning" ? "lightbulb" : value.title.toLowerCase() === "innovation" ? "chart" : value.title.toLowerCase() === "inclusion" ? "users" : "eye"} className="h-6 w-6 text-brandBlue-600" /><h3 className="text-2xl font-bold uppercase font-heading">{value.title}</h3></div>
+                <div className="flex items-center gap-3 mb-2">
+                  {valueBadges[value.title.toLowerCase()] ? (
+                    <img
+                      src={valueBadges[value.title.toLowerCase()]}
+                      alt=""
+                      aria-hidden="true"
+                      className="h-9 w-9 object-cover shrink-0"
+                    />
+                  ) : (
+                    <Icon name={value.title.toLowerCase() === "integrity" ? "compass" : value.title.toLowerCase() === "excellence" ? "target" : value.title.toLowerCase() === "partnership" ? "users" : value.title.toLowerCase() === "learning" ? "lightbulb" : value.title.toLowerCase() === "innovation" ? "chart" : value.title.toLowerCase() === "inclusion" ? "users" : "eye"} className="h-6 w-6 text-brandBlue-600" />
+                  )}
+                  <h3 className="text-2xl font-bold uppercase font-heading">{value.title}</h3>
+                </div>
                 <p className="text-neutral-600">{value.text}</p>
               </div>
             </Reveal>

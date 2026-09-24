@@ -4,6 +4,7 @@ import DuotoneImage from "../components/DuotoneImage"
 import Icon from "../components/Icon"
 import Reveal from "../components/Reveal"
 import { useContent } from "../data/contentApi.jsx"
+import rocketBadge from "../assets/badges/rocket.jpeg"
 
 const trackIcon = (title) => {
   const t = title.toLowerCase()
@@ -22,7 +23,10 @@ export default function Careers() {
           {careers.eyebrow}
         </p>
         <div className="h-px w-full bg-primary-200/60 mb-8" />
-        <h1 className="text-5xl md:text-6xl font-bold leading-[0.95] mb-6">{careers.title}</h1>
+        <div className="flex items-center gap-4 mb-6">
+          <img src={rocketBadge} alt="" aria-hidden="true" className="h-14 w-14 object-cover shrink-0" />
+          <h1 className="text-5xl md:text-6xl font-bold leading-[0.95]">{careers.title}</h1>
+        </div>
         <p className="text-lg text-neutral-600 max-w-2xl">{careers.intro}</p>
       </section>
 

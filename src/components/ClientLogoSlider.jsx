@@ -1,10 +1,12 @@
+import Icon from "./Icon"
+
 const organisations = [
-  "Government partners",
-  "Donor agencies",
-  "International NGOs",
-  "National NGOs",
-  "Research institutions",
-  "Civil-society organisations",
+  { label: "Government partners", icon: "shield" },
+  { label: "Donor agencies", icon: "globe" },
+  { label: "International NGOs", icon: "network" },
+  { label: "National NGOs", icon: "users" },
+  { label: "Research institutions", icon: "compass" },
+  { label: "Civil-society organisations", icon: "health" },
 ]
 
 export default function ClientLogoSlider() {
@@ -23,17 +25,18 @@ export default function ClientLogoSlider() {
             </h2>
           </div>
           <p className="text-sm text-neutral-500 max-w-md">
-            Approved client logo artwork will be added here as permissions are confirmed.
+            Category icons shown as placeholders. Approved client logo artwork will replace them once permissions are confirmed.
           </p>
         </div>
         <div className="logo-slider overflow-hidden" aria-label="Client organisation categories">
           <div className="logo-slider-track flex w-max items-stretch gap-4">
             {items.map((organisation, index) => (
               <div
-                key={`${organisation}-${index}`}
-                className="flex min-h-20 w-52 shrink-0 items-center justify-center border border-primary-200/70 bg-white/45 px-5 text-center font-heading uppercase tracking-wide text-sm font-semibold text-primary-700"
+                key={`${organisation.label}-${index}`}
+                className="flex min-h-24 w-52 shrink-0 flex-col items-center justify-center gap-2 border border-primary-200/70 bg-white/45 px-5 text-center font-heading uppercase tracking-wide text-sm font-semibold text-primary-700"
               >
-                {organisation}
+                <Icon name={organisation.icon} className="h-7 w-7 text-brandBlue-600" />
+                {organisation.label}
               </div>
             ))}
           </div>

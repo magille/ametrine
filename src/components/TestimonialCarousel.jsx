@@ -4,22 +4,30 @@ const testimonials = [
   {
     quote: "Approved client testimonial coming soon. This space is ready for a verified quote about Ametrine's work.",
     name: "Client testimonial",
-    role: "Portrait and role to be supplied",
-    initials: "CT",
+    role: "Name and role to be supplied",
+    seed: "ametrine-testimonial-1",
   },
   {
     quote: "Approved client testimonial coming soon. Add a concise, attributable reflection on the value of the assignment here.",
     name: "Client testimonial",
-    role: "Portrait and role to be supplied",
-    initials: "CT",
+    role: "Name and role to be supplied",
+    seed: "ametrine-testimonial-2",
   },
   {
     quote: "Approved client testimonial coming soon. The carousel supports longer quotes while keeping the homepage focused.",
     name: "Client testimonial",
-    role: "Portrait and role to be supplied",
-    initials: "CT",
+    role: "Name and role to be supplied",
+    seed: "ametrine-testimonial-3",
   },
 ]
+
+// DiceBear (free, open-source, no key required) generates a stable
+// illustrated avatar per seed. These are clearly stylised placeholder
+// portraits, not photos of real people, so they can't be mistaken for
+// genuine client endorsements before real, approved photos are supplied.
+function avatarUrl(seed) {
+  return `https://api.dicebear.com/9.x/notionists/svg?seed=${encodeURIComponent(seed)}&backgroundColor=e4d8f7,d9f3ee`
+}
 
 export default function TestimonialCarousel() {
   const [active, setActive] = useState(0)
@@ -52,12 +60,12 @@ export default function TestimonialCarousel() {
             Client perspectives
           </h2>
           <p className="mt-5 text-neutral-600 max-w-md">
-            Verified client stories and portrait photography will appear here once approved for publication.
+            Illustrated placeholder portraits shown below. Verified client stories and approved photography will replace them once cleared for publication.
           </p>
           <div className="flex gap-2 mt-7" aria-label="Choose testimonial">
             {testimonials.map((item, index) => (
               <button
-                key={item.initials + index}
+                key={item.seed}
                 type="button"
                 onClick={() => setActive(index)}
                 aria-label={`Show testimonial ${index + 1}`}
@@ -72,9 +80,12 @@ export default function TestimonialCarousel() {
 
         <article className="blueprint border-primary-200/70 bg-white/45 p-7 md:p-10" aria-live="polite">
           <div className="flex items-start gap-5">
-            <div className="flex h-20 w-20 shrink-0 items-center justify-center border border-brandBlue-300 bg-brandBlue-100/60 font-heading text-2xl font-bold text-brandBlue-800" aria-label="Client portrait placeholder">
-              {testimonial.initials}
-            </div>
+            <img
+              src={avatarUrl(testimonial.seed)}
+              alt=""
+              aria-hidden="true"
+              className="h-20 w-20 shrink-0 border border-brandBlue-300 bg-brandBlue-100/60 object-cover"
+            />
             <div>
               <blockquote className="text-xl md:text-2xl leading-relaxed text-primary-900">
                 “{testimonial.quote}”
