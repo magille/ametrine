@@ -74,7 +74,7 @@ export default function Navbar() {
             <img
               src={fullLogo}
               alt="Ametrine Consulting"
-              className="h-20 w-20 object-contain object-center mix-blend-multiply sm:h-24 sm:w-24"
+              className="h-24 w-24 object-contain object-center mix-blend-multiply contrast-125 saturate-150 sm:h-28 sm:w-28 lg:h-32 lg:w-32"
             />
           </NavLink>
 
