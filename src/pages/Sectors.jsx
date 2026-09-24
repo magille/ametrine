@@ -1,10 +1,12 @@
 import CtaBand from "../components/CtaBand"
 import BlueprintCard from "../components/BlueprintCard"
 import SectionHeading from "../components/SectionHeading"
-import DuotoneImage from "../components/DuotoneImage"
+import ImageSlider from "../components/ImageSlider"
 import Icon from "../components/Icon"
 import Reveal from "../components/Reveal"
 import { useContent } from "../data/contentApi.jsx"
+import fieldworkPhoto from "../assets/gallery/fieldwork.jpeg"
+import workshopPhoto from "../assets/gallery/workshop.jpeg"
 
 const sectorIcon = (title) => {
   const t = title.toLowerCase()
@@ -31,10 +33,13 @@ export default function Sectors() {
       </section>
 
       <section className="max-w-[90rem] mx-auto px-6 pb-8">
-        <DuotoneImage
-          src={images?.sectors || ""}
-          alt="Consultants facilitating sector-focused learning and programme design sessions"
+        <ImageSlider
           ratio="aspect-[16/7]"
+          images={[
+            { src: images?.sectors || "", alt: "Consultants facilitating sector-focused learning and programme design sessions" },
+            { src: fieldworkPhoto, alt: "Ametrine field team conducting a data collection interview" },
+            { src: workshopPhoto, alt: "Sector stakeholders in a client workshop and training session" },
+          ]}
         />
       </section>
 
