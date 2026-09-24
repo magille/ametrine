@@ -8,6 +8,7 @@ import SpecSheet from "../components/SpecSheet"
 import { useContent } from "../data/contentApi.jsx"
 import heroPhoto from "../assets/photos/hero.jpg"
 import whoWeArePhoto from "../assets/photos/impact.jpg"
+import Icon from "../components/Icon"
 
 export default function Home() {
   const { content: { home, audienceTags, services, images } } = useContent()
@@ -47,6 +48,7 @@ export default function Home() {
           title={home.credibility.title}
           meta={home.credibility.meta}
           rows={home.credibility.rows}
+          icon="chart"
         />
       </section>
 
@@ -100,8 +102,9 @@ export default function Home() {
             <BlueprintCard key={service.slug} className="p-6">
               <Link
                 to={`/services/${service.slug}`}
-                className="font-heading uppercase text-xl font-bold leading-tight hover:text-brandBlue-700 transition-colors block"
+                className="font-heading uppercase text-xl font-bold leading-tight hover:text-brandBlue-700 transition-colors flex items-start gap-3"
               >
+                <Icon name={service.slug.includes("research") ? "compass" : service.slug.includes("data") ? "database" : service.slug.includes("talent") ? "users" : service.slug.includes("training") ? "graduation" : service.slug.includes("proposal") ? "lightbulb" : "chart"} className="h-6 w-6 shrink-0 text-brandBlue-600" />
                 {service.title}
               </Link>
             </BlueprintCard>

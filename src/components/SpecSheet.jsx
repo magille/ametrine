@@ -1,4 +1,6 @@
-export default function SpecSheet({ title, meta, rows, footnote }) {
+import Icon from "./Icon"
+
+export default function SpecSheet({ title, meta, rows, footnote, icon = "chart" }) {
   return (
     <div className="blueprint border border-primary-200/70 text-primary-600">
       <i className="corner tl" />
@@ -11,7 +13,7 @@ export default function SpecSheet({ title, meta, rows, footnote }) {
         }`}
       >
         <div className="p-5 sm:border-r border-primary-200/70">
-          <p className="font-heading uppercase text-sm font-bold text-ink leading-tight">{title}</p>
+          <div className="flex items-center gap-3"><Icon name={icon} className="h-5 w-5 text-brandBlue-600" /><p className="font-heading uppercase text-sm font-bold text-ink leading-tight">{title}</p></div>
         </div>
         {meta && (
           <div className="p-5 sm:border-r border-primary-200/70 border-t sm:border-t-0 border-primary-200/70">
