@@ -1,10 +1,14 @@
 const organisations = [
-  { name: "USAID", full: "United States Agency for International Development" },
-  { name: "MoH", full: "Ministry of Health, Tanzania" },
-  { name: "MNH", full: "Muhimbili National Hospital" },
-  { name: "PO-RALG", full: "President's Office, Regional Administration & Local Government" },
   { name: "UNICEF", full: "UNICEF Tanzania" },
-  { name: "NBS", full: "National Bureau of Statistics, Tanzania" },
+  { name: "Amref", full: "Amref Health Africa" },
+  { name: "SOS", full: "SOS Children's Villages" },
+  { name: "Save the Children", full: "Save the Children" },
+  { name: "NCA", full: "Norwegian Church Aid" },
+  { name: "Darsh Industries", full: "Darsh Industries" },
+  { name: "MoH", full: "Ministry of Health, Tanzania" },
+  { name: "MoEVT", full: "Ministry of Education and Vocational Training, Zanzibar" },
+  { name: "ZPC", full: "Zanzibar Planning Commission" },
+  { name: "CRS", full: "Catholic Relief Services" },
 ]
 
 export default function ClientLogoSlider() {
@@ -23,16 +27,16 @@ export default function ClientLogoSlider() {
             </h2>
           </div>
           <p className="text-sm text-neutral-500 max-w-md">
-            Placeholder names shown below for layout purposes. Approved client logo artwork will replace them once permissions are confirmed.
+            Client names shown as text pending official logo artwork from each organisation.
           </p>
         </div>
-        <div className="logo-slider overflow-hidden" aria-label="Client organisation categories">
+        <div className="logo-slider overflow-hidden" aria-label="Client organisations">
           <div className="logo-slider-track flex w-max items-stretch gap-4">
             {items.map((organisation, index) => (
               <div
                 key={`${organisation.name}-${index}`}
                 className="flex min-h-24 w-52 shrink-0 flex-col items-center justify-center gap-1 border border-primary-200/70 bg-white/45 px-5 text-center"
-                title={`${organisation.full} (placeholder)`}
+                title={organisation.full}
               >
                 <span className="font-heading uppercase tracking-wide text-lg font-bold text-primary-700">
                   {organisation.name}
