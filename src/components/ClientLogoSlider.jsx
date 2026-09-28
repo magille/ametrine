@@ -1,14 +1,23 @@
+import sosLogo from "../assets/client-logos/sos.jpg"
+import amrefLogo from "../assets/client-logos/amref.jpeg"
+import saveTheChildrenLogo from "../assets/client-logos/save-the-children.jpeg"
+import moevtLogo from "../assets/client-logos/moevt.jpeg"
+import zpcLogo from "../assets/client-logos/zpc.jpeg"
+import unicefLogo from "../assets/client-logos/unicef.jpeg"
+import crsLogo from "../assets/client-logos/crs.jpeg"
+import redgoldLogo from "../assets/client-logos/redgold.png"
+
 const organisations = [
-  { name: "UNICEF", full: "UNICEF Tanzania" },
-  { name: "Amref", full: "Amref Health Africa" },
-  { name: "SOS", full: "SOS Children's Villages" },
-  { name: "Save the Children", full: "Save the Children" },
+  { name: "UNICEF", full: "UNICEF Tanzania", logo: unicefLogo },
+  { name: "Amref", full: "Amref Health Africa", logo: amrefLogo },
+  { name: "SOS", full: "SOS Children's Villages Tanzania", logo: sosLogo },
+  { name: "Save the Children", full: "Save the Children", logo: saveTheChildrenLogo },
   { name: "NCA", full: "Norwegian Church Aid" },
-  { name: "Darsh Industries", full: "Darsh Industries" },
+  { name: "Redgold", full: "Redgold", logo: redgoldLogo },
   { name: "MoH", full: "Ministry of Health, Tanzania" },
-  { name: "MoEVT", full: "Ministry of Education and Vocational Training, Zanzibar" },
-  { name: "ZPC", full: "Zanzibar Planning Commission" },
-  { name: "CRS", full: "Catholic Relief Services" },
+  { name: "MoEVT", full: "Ministry of Education and Vocational Training, Zanzibar", logo: moevtLogo },
+  { name: "ZPC", full: "Zanzibar Planning Commission", logo: zpcLogo },
+  { name: "CRS", full: "Catholic Relief Services", logo: crsLogo },
 ]
 
 export default function ClientLogoSlider() {
@@ -35,13 +44,23 @@ export default function ClientLogoSlider() {
             {items.map((organisation, index) => (
               <div
                 key={`${organisation.name}-${index}`}
-                className="flex min-h-24 w-52 shrink-0 flex-col items-center justify-center gap-1 border border-primary-200/70 bg-white/45 px-5 text-center"
+                className="flex min-h-24 w-52 shrink-0 flex-col items-center justify-center gap-1 border border-primary-200/70 bg-white px-5 text-center"
                 title={organisation.full}
               >
-                <span className="font-heading uppercase tracking-wide text-lg font-bold text-primary-700">
-                  {organisation.name}
-                </span>
-                <span className="text-[11px] leading-tight text-neutral-500 line-clamp-2">{organisation.full}</span>
+                {organisation.logo ? (
+                  <img
+                    src={organisation.logo}
+                    alt={organisation.full}
+                    className="max-h-14 w-auto max-w-[85%] object-contain"
+                  />
+                ) : (
+                  <>
+                    <span className="font-heading uppercase tracking-wide text-lg font-bold text-primary-700">
+                      {organisation.name}
+                    </span>
+                    <span className="text-[11px] leading-tight text-neutral-500 line-clamp-2">{organisation.full}</span>
+                  </>
+                )}
               </div>
             ))}
           </div>
