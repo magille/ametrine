@@ -9,7 +9,7 @@ import communityPhoto from "../assets/gallery/community.jpeg"
 const items = [
   { label: "Fieldwork and data collection", icon: "compass", photo: fieldworkPhoto },
   { label: "Client workshops and training", icon: "graduation", photo: workshopPhoto },
-  { label: "Team and leadership", icon: "users", photo: leadershipPhoto },
+  { label: "Government Engagement", icon: "users", photo: leadershipPhoto },
   { label: "Evaluation and learning sessions", icon: "chart" },
   { label: "Community and stakeholder engagement", icon: "network", photo: communityPhoto },
   { label: "Reporting and dissemination", icon: "database" },
