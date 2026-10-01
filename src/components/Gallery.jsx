@@ -5,14 +5,16 @@ import fieldworkPhoto from "../assets/gallery/fieldwork.jpeg"
 import workshopPhoto from "../assets/gallery/workshop.jpeg"
 import leadershipPhoto from "../assets/gallery/leadership.jpeg"
 import communityPhoto from "../assets/gallery/community.jpeg"
+import evaluationLearningPhoto from "../assets/gallery/evaluation-learning.jpeg"
+import reportingDisseminationPhoto from "../assets/gallery/reporting-dissemination.jpg"
 
 const items = [
   { label: "Fieldwork and data collection", icon: "compass", photo: fieldworkPhoto },
   { label: "Client workshops and training", icon: "graduation", photo: workshopPhoto },
   { label: "Government Engagement", icon: "users", photo: leadershipPhoto },
-  { label: "Evaluation and learning sessions", icon: "chart" },
+  { label: "Evaluation and learning sessions", icon: "chart", photo: evaluationLearningPhoto },
   { label: "Community and stakeholder engagement", icon: "network", photo: communityPhoto },
-  { label: "Reporting and dissemination", icon: "database" },
+  { label: "Reporting and dissemination", icon: "database", photo: reportingDisseminationPhoto },
 ]
 
 export default function Gallery() {
@@ -39,7 +41,7 @@ export default function Gallery() {
       <div className="h-px w-full bg-brandBlue-200/70 mb-6" />
       <h2 id="gallery-title" className="text-4xl md:text-5xl font-bold leading-[0.95] mb-3">Gallery</h2>
       <p className="text-neutral-600 max-w-2xl mb-8">
-        A look at Ametrine at work: fieldwork, client workshops and team moments from recent assignments.
+        A look at Ametrine at work: fieldwork, evaluation, learning, reporting and engagement from recent assignments.
       </p>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
