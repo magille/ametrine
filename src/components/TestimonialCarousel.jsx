@@ -2,29 +2,21 @@ import { useEffect, useState } from "react"
 
 const testimonials = [
   {
-    quote: "Ametrine's evaluation gave our team clear, practical evidence we could act on immediately — not just a report that sat on a shelf.",
-    name: "Amina Mrisho",
-    role: "MEL Manager, National Malaria Programme",
-    photo: "https://randomuser.me/api/portraits/women/68.jpg",
+    quote: "Ametrine turns complex findings into clear, practical recommendations that help programme teams reflect, learn and sharpen their response to the needs of children and families.",
+    name: "Dorice Munisi",
+    role: "Project Manager, Lishe ya Mwanao Project, UNICEF–CRS",
   },
   {
-    quote: "Their fieldwork was rigorous and respectful of our communities. The data quality improvements have made a real difference to our reporting.",
-    name: "Juma Bakari",
-    role: "Program Director, Mwanza Community Health Initiative",
-    photo: "https://randomuser.me/api/portraits/men/45.jpg",
+    quote: "Ametrine delivered a thorough, well-structured assessment with rigorous analysis and clear reporting. Their attention to detail and thoughtful interpretation of sensitive social norms made the findings credible and valuable for our programming.",
+    name: "Mercy Kawala",
+    role: "Planning, Monitoring, Evaluation and Reporting (PMER) Lead, Norwegian Church Aid",
   },
   {
-    quote: "The MEL system Ametrine helped us build is now central to how we plan and learn as an organisation.",
-    name: "Grace Kessy",
-    role: "Head of Research, Dodoma Education Trust",
-    photo: "https://randomuser.me/api/portraits/women/21.jpg",
+    quote: "Ametrine helped us look beyond activities and outputs to understand the difference our work makes. Their insights strengthened our focus on results, helping us connect evidence, learning and decisions to meaningful change.",
+    name: "Othman Sharif Othman",
+    role: "Head of M&E, World Bank-funded ZIQUE Project, Ministry of Education and Vocational Training, Zanzibar",
   },
 ]
-
-// randomuser.me provides stock portrait photos intended for placeholder/test
-// use (not real, identifiable individuals attached to genuine claims).
-// Names, roles and quotes below are fictional and clearly marked pending
-// real, approved client testimonials.
 
 export default function TestimonialCarousel() {
   const [active, setActive] = useState(0)
@@ -57,7 +49,7 @@ export default function TestimonialCarousel() {
             Client perspectives
           </h2>
           <p className="mt-5 text-neutral-600 max-w-md">
-            Placeholder names, roles and stock portraits shown below. Real client testimonials and approved photography will replace them once cleared for publication.
+            Perspectives from partners on how evidence and learning support stronger programme decisions.
           </p>
           <div className="flex gap-2 mt-7" aria-label="Choose testimonial">
             {testimonials.map((item, index) => (
@@ -76,20 +68,13 @@ export default function TestimonialCarousel() {
         </div>
 
         <article className="blueprint border-primary-200/70 bg-white/45 p-7 md:p-10" aria-live="polite">
-          <div className="flex items-start gap-5">
-            <img
-              src={testimonial.photo}
-              alt=""
-              aria-hidden="true"
-              className="h-20 w-20 shrink-0 border border-brandBlue-300 bg-brandBlue-100/60 object-cover"
-            />
-            <div>
-              <blockquote className="text-xl md:text-2xl leading-relaxed text-primary-900">
-                “{testimonial.quote}”
-              </blockquote>
-              <p className="mt-6 font-heading uppercase tracking-wide font-bold text-primary-700">{testimonial.name}</p>
-              <p className="text-sm text-neutral-500 mt-1">{testimonial.role}</p>
-            </div>
+          <div className="mb-5 font-heading text-5xl leading-none text-brandBlue-500" aria-hidden="true">“</div>
+          <blockquote className="text-xl md:text-2xl leading-relaxed text-primary-900">
+            {testimonial.quote}
+          </blockquote>
+          <div className="mt-6 border-t border-brandBlue-200/70 pt-5">
+            <p className="font-heading uppercase tracking-wide font-bold text-primary-700">{testimonial.name}</p>
+            <p className="text-sm text-neutral-500 mt-1">{testimonial.role}</p>
           </div>
         </article>
       </div>
