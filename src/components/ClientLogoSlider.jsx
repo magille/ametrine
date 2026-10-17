@@ -35,9 +35,6 @@ export default function ClientLogoSlider() {
               Organisations we support
             </h2>
           </div>
-          <p className="text-sm text-neutral-500 max-w-md">
-            Client names shown as text pending official logo artwork from each organisation.
-          </p>
         </div>
         <div className="logo-slider overflow-hidden" aria-label="Client organisations">
           <div className="logo-slider-track flex w-max items-stretch gap-4">
